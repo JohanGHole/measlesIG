@@ -26,7 +26,7 @@ jobs:
       - name: Run the IG publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: java -jar ./input-cache/publisher.jar publisher -ig .
+          args: bash -c "ln -s /usr/bin/python3 /usr/local/bin/python 2>/dev/null || true; java -jar ./input-cache/publisher.jar publisher -ig ."
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
