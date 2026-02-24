@@ -2,35 +2,116 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
+    branches-ignore:
+      - "gh-pages"
   pull_request:
-    branches: ["main"]
+    branches-ignore:
+      - "gh-pages"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "GitPython>=3.1.40" "PyYAML>=6.0" "requests>=2.28.0" lxml
+
+      - name: Get branch name
+        run: |
+          echo "BRANCH_DIR=${GITHUB_REF##*/}" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+      - name: Check if default branch
+        run: |
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
+          if [ "${{ env.BRANCH_NAME }}" == "$DEFAULT_BRANCH" ]; then
+            echo "IS_DEFAULT_BRANCH=true" >> $GITHUB_ENV
+          else
+            echo "IS_DEFAULT_BRANCH=false" >> $GITHUB_ENV
+          fi
 
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o ./input-cache/publisher.jar --create-dirs
 
-      - name: Run sushi to generate the ig.ini file
+      - name: Create package cache folder
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: sushi
+          entrypoint: /bin/sh
+          args: -c "mkdir -p ./fhir-package-cache && chown 1001:127 ./fhir-package-cache"
 
       - name: Run the IG publisher
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: bash -c "ln -s /usr/bin/python3 /usr/local/bin/python 2>/dev/null || true; java -jar ./input-cache/publisher.jar publisher -ig ."
+        run: |
+          # Start container with entrypoint (sets up sushi, jekyll, etc.) and keep it running
+          docker run -d --name ig-run \
+            -v ${{ github.workspace }}:/work \
+            -w /work \
+            hl7fhir/ig-publisher-base:latest \
+            sleep infinity
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+          # Wait for entrypoint to finish setup
+          sleep 5
+
+          # Install Python inside the container as root
+          docker exec --user root ig-run sh -c '\
+            apt-get update && \
+            apt-get install -y --no-install-recommends python3 python3-pip python3-venv && \
+            ln -sf /usr/bin/python3 /usr/bin/python && \
+            pip3 install --break-system-packages "GitPython>=3.1.40" "PyYAML>=6.0" "requests>=2.28.0" lxml'
+
+          # Run the IG publisher
+          docker exec -w /work ig-run sh -c "\
+            java -Xmx6g -jar ./input-cache/publisher.jar publisher \
+              -ig . \
+              -auto-ig-build \
+              -repo https://github.com/${GITHUB_REPOSITORY}/tree/${{ github.ref_name }} \
+              -package-cache-folder ./fhir-package-cache"
+
+          # Cleanup
+          docker rm -f ig-run
+
+      - name: Delete files >100MB before deployment
+        run: |
+          echo "Removing files over 100 MB from ./output..."
+          find ./output -type f -size +100M -print -delete
+
+      - name: Deploy candidate
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
+        if: env.IS_DEFAULT_BRANCH == 'false'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output
-          publish_branch: gh-pages
+          branch: gh-pages
+          folder: ./output
+          commit-message: Deploy candidate branch
+          target-folder: branches/${{ env.BRANCH_DIR }}
+          single-commit: true
+          clean: false
+
+      - name: Deploy main
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
+        if: env.IS_DEFAULT_BRANCH == 'true'
+        with:
+          branch: gh-pages
+          folder: ./output
+          commit-message: Deploy main branch
+          single-commit: true
+          clean-exclude: |
+            branches
+            sitepreview
