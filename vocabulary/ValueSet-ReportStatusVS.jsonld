@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://example.org/ValueSet-ReportStatusVS.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-03T19:04:11.753485Z",
+  "@graph": [
+    {
+      "id": "http://example.org/ValueSet-ReportStatusVS.jsonld#MISSING",
+      "name": "Missing",
+      "fhir:code": "MISSING",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-ReportStatusCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-ReportStatusVS.jsonld#TO_BE_VALIDATED",
+      "name": "To be validated",
+      "fhir:code": "TO_BE_VALIDATED",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-ReportStatusCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-ReportStatusVS.jsonld#VALIDATED",
+      "name": "Validated",
+      "fhir:code": "VALIDATED",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-ReportStatusCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-ReportStatusVS.jsonld#REJECTED",
+      "name": "Rejected",
+      "fhir:code": "REJECTED",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-ReportStatusCS"
+    }
+  ]
+}

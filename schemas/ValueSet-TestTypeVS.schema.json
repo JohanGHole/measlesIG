@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-TestTypeVS.schema.json",
+  "title": "Test type value set Schema",
+  "description": "JSON Schema for Test type value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/TestTypeCS#IGM_ELISA",
+    "http://example.org/CodeSystem/TestTypeCS#IGG_ELISA",
+    "http://example.org/CodeSystem/TestTypeCS#PCR",
+    "http://example.org/CodeSystem/TestTypeCS#VIRUS_ISOLATION",
+    "http://example.org/CodeSystem/TestTypeCS#GENOTYPING",
+    "http://example.org/CodeSystem/TestTypeCS#RAPID_TEST",
+    "http://example.org/CodeSystem/TestTypeCS#OTHER",
+    "http://example.org/CodeSystem/TestTypeCS#UNKNOWN"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Test type value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-TestTypeVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-TestTypeVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/TestTypeVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.648483"
+}

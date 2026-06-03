@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-SampleTypeVS.schema.json",
+  "title": "Sample type value set Schema",
+  "description": "JSON Schema for Sample type value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/SampleTypeCS#SERUM",
+    "http://example.org/CodeSystem/SampleTypeCS#WHOLE_BLOOD",
+    "http://example.org/CodeSystem/SampleTypeCS#DRIED_BLOOD_SPOT",
+    "http://example.org/CodeSystem/SampleTypeCS#THROAT_SWAB",
+    "http://example.org/CodeSystem/SampleTypeCS#NASOPHARYNGEAL_SWAB",
+    "http://example.org/CodeSystem/SampleTypeCS#ORAL_FLUID",
+    "http://example.org/CodeSystem/SampleTypeCS#URINE",
+    "http://example.org/CodeSystem/SampleTypeCS#OTHER",
+    "http://example.org/CodeSystem/SampleTypeCS#UNKNOWN"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Sample type value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-SampleTypeVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-SampleTypeVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/SampleTypeVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.648132"
+}

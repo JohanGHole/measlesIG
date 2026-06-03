@@ -1,0 +1,75 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "dhis2-tracked-entity-attributes-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem dhis2-tracked-entity-attributes-cs</b></p><a name=\"dhis2-tracked-entity-attributes-cs\"> </a><a name=\"hcdhis2-tracked-entity-attributes-cs\"> </a><p>This  code system <code>http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">UWodgvnPnt6<a name=\"dhis2-tracked-entity-attributes-cs-UWodgvnPnt6\"> </a></td><td>ID</td><td>ID</td></tr><tr><td style=\"white-space:nowrap\">L6WNZMhuxR3<a name=\"dhis2-tracked-entity-attributes-cs-L6WNZMhuxR3\"> </a></td><td>National ID number</td><td>National ID number</td></tr><tr><td style=\"white-space:nowrap\">PWtYn9NOXEO<a name=\"dhis2-tracked-entity-attributes-cs-PWtYn9NOXEO\"> </a></td><td>First name</td><td>First name</td></tr><tr><td style=\"white-space:nowrap\">ZNACp7TZNvT<a name=\"dhis2-tracked-entity-attributes-cs-ZNACp7TZNvT\"> </a></td><td>Last Name</td><td>Last Name</td></tr><tr><td style=\"white-space:nowrap\">Ttp29mbPncP<a name=\"dhis2-tracked-entity-attributes-cs-Ttp29mbPncP\"> </a></td><td>Middle Name</td><td>Middle Name</td></tr><tr><td style=\"white-space:nowrap\">uHnTMC13n1b<a name=\"dhis2-tracked-entity-attributes-cs-uHnTMC13n1b\"> </a></td><td>Gender</td><td>Gender</td></tr><tr><td style=\"white-space:nowrap\">Vk0AMXO4hEK<a name=\"dhis2-tracked-entity-attributes-cs-Vk0AMXO4hEK\"> </a></td><td>Date of birth</td><td>Date of birth</td></tr><tr><td style=\"white-space:nowrap\">nBAp1YCfpwr<a name=\"dhis2-tracked-entity-attributes-cs-nBAp1YCfpwr\"> </a></td><td>Email adress</td><td>Email adress</td></tr><tr><td style=\"white-space:nowrap\">IUbA5LpfnUI<a name=\"dhis2-tracked-entity-attributes-cs-IUbA5LpfnUI\"> </a></td><td>Phone number</td><td>Phone number</td></tr><tr><td style=\"white-space:nowrap\">ExiLfngjOBI<a name=\"dhis2-tracked-entity-attributes-cs-ExiLfngjOBI\"> </a></td><td>Place of residence</td><td>Place of residence</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs",
+  "version" : "0.1.0",
+  "name" : "Dhis2TrackedEntityAttributesCS",
+  "title" : "DHIS2 Tracked Entity Attributes",
+  "status" : "draft",
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "description" : "Code system for 10 unique DHIS2 tracked entity attributes",
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "UWodgvnPnt6",
+    "display" : "ID",
+    "definition" : "ID"
+  },
+  {
+    "code" : "L6WNZMhuxR3",
+    "display" : "National ID number",
+    "definition" : "National ID number"
+  },
+  {
+    "code" : "PWtYn9NOXEO",
+    "display" : "First name",
+    "definition" : "First name"
+  },
+  {
+    "code" : "ZNACp7TZNvT",
+    "display" : "Last Name",
+    "definition" : "Last Name"
+  },
+  {
+    "code" : "Ttp29mbPncP",
+    "display" : "Middle Name",
+    "definition" : "Middle Name"
+  },
+  {
+    "code" : "uHnTMC13n1b",
+    "display" : "Gender",
+    "definition" : "Gender"
+  },
+  {
+    "code" : "Vk0AMXO4hEK",
+    "display" : "Date of birth",
+    "definition" : "Date of birth"
+  },
+  {
+    "code" : "nBAp1YCfpwr",
+    "display" : "Email adress",
+    "definition" : "Email adress"
+  },
+  {
+    "code" : "IUbA5LpfnUI",
+    "display" : "Phone number",
+    "definition" : "Phone number"
+  },
+  {
+    "code" : "ExiLfngjOBI",
+    "display" : "Place of residence",
+    "definition" : "Place of residence"
+  }]
+}

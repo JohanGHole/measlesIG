@@ -1,0 +1,62 @@
+# Yes/No/Unknown - v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Yes/No/Unknown**
+
+## CodeSystem: Yes/No/Unknown 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://example.org/CodeSystem/YesNoUnknownCS | *Version*:0.1.0 |
+| Draft as of 2026-06-03 | *Computable Name*:YesNoUnknownCS |
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* [YesNoUnknownVS](ValueSet-YesNoUnknownVS.md)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "YesNoUnknownCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "url" : "http://example.org/CodeSystem/YesNoUnknownCS",
+  "version" : "0.1.0",
+  "name" : "YesNoUnknownCS",
+  "title" : "Yes/No/Unknown",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "YES",
+    "display" : "Yes"
+  },
+  {
+    "code" : "NO",
+    "display" : "No"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}
+
+```

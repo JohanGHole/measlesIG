@@ -1,0 +1,158 @@
+"Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"ClinicalReport","ClinicalReport","ClinicalReport","","","",0,*,"","","","null {[]} {[]}
+","Clinical report","Clinical report","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ClinicalReport","ClinicalReport.vaccinatedAgainstMeaslesRubella","ClinicalReport.vaccinatedAgainstMeaslesRubella","","","",0,1,"","","","boolean {[]} {[]}
+","Vaccinated against Measles/Rubella","Vaccinated against Measles/Rubella","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#sx65Ijl09gx
+",,,,"ClinicalReport.vaccinatedAgainstMeaslesRubella",0,1,"",""
+"ClinicalReport","ClinicalReport.fever","ClinicalReport.fever","","","",0,1,"","","","code {[]} {[]}
+","Fever","Fever","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#R6o8SL217JB
+",,,,"ClinicalReport.fever",0,1,"",""
+"ClinicalReport","ClinicalReport.dateOfFeverOnset","ClinicalReport.dateOfFeverOnset","","","",0,1,"","","","date {[]} {[]}
+","Date of fever onset","Date of fever onset","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#kMzOKNO3n0q
+",,,,"ClinicalReport.dateOfFeverOnset",0,1,"",""
+"ClinicalReport","ClinicalReport.rash","ClinicalReport.rash","","","",0,1,"","","","code {[]} {[]}
+","Rash","Rash","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#rF81w0SBlrF
+",,,,"ClinicalReport.rash",0,1,"",""
+"ClinicalReport","ClinicalReport.durationOfTheRash","ClinicalReport.durationOfTheRash","","","",0,1,"","","","unsignedInt {[]} {[]}
+","Duration of the rash","Duration of the rash","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#dUKQSnRbqSJ
+",,,,"ClinicalReport.durationOfTheRash",0,1,"",""
+"ClinicalReport","ClinicalReport.dateOfRashOnset","ClinicalReport.dateOfRashOnset","","","",0,1,"","","","date {[]} {[]}
+","Date of rash onset","Date of rash onset","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#pLnmZUadUXA
+",,,,"ClinicalReport.dateOfRashOnset",0,1,"",""
+"ClinicalReport","ClinicalReport.typeOfRash","ClinicalReport.typeOfRash","","","",0,1,"","","","code {[]} {[]}
+","Type of rash","Type of rash","","","","","","","","","",,"required","","http://example.org/ValueSet/TypeOfRashVS","http://example.org/CodeSystem/dhis2-data-elements-cs#fkKMZsHl8np
+",,,,"ClinicalReport.typeOfRash",0,1,"",""
+"ClinicalReport","ClinicalReport.cough","ClinicalReport.cough","","","",0,1,"","","","code {[]} {[]}
+","Cough","Cough","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#XM4BWbRIruu
+",,,,"ClinicalReport.cough",0,1,"",""
+"ClinicalReport","ClinicalReport.conjunctivities","ClinicalReport.conjunctivities","","","",0,1,"","","","code {[]} {[]}
+","Conjunctivities","Conjunctivities","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#V9UlOFxpWF6
+",,,,"ClinicalReport.conjunctivities",0,1,"",""
+"ClinicalReport","ClinicalReport.coryza","ClinicalReport.coryza","","","",0,1,"","","","code {[]} {[]}
+","Coryza","Coryza","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#cbVD6ChL4XM
+",,,,"ClinicalReport.coryza",0,1,"",""
+"ClinicalReport","ClinicalReport.koplikSpots","ClinicalReport.koplikSpots","","","",0,1,"","","","code {[]} {[]}
+","Koplik Spots","Koplik Spots","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#H5U2xFeUvQM
+",,,,"ClinicalReport.koplikSpots",0,1,"",""
+"ClinicalReport","ClinicalReport.lymphadenopathy","ClinicalReport.lymphadenopathy","","","",0,1,"","","","code {[]} {[]}
+","Lymphadenopathy","Lymphadenopathy","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#RJG70pkQAwB
+",,,,"ClinicalReport.lymphadenopathy",0,1,"",""
+"ClinicalReport","ClinicalReport.arthralgia","ClinicalReport.arthralgia","","","",0,1,"","","","code {[]} {[]}
+","Arthralgia","Arthralgia","","","","","","","","","",,"required","","http://example.org/ValueSet/YesNoUnknownVS","http://example.org/CodeSystem/dhis2-data-elements-cs#jQH7iLQFCD8
+",,,,"ClinicalReport.arthralgia",0,1,"",""
+"Epidemiologist","Epidemiologist","Epidemiologist","","","",0,*,"","","","null {[]} {[]}
+","Epidemiologist","Epidemiologist","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Epidemiologist","Epidemiologist.revisionStatus","Epidemiologist.revisionStatus","","","",1,1,"","","","code {[]} {[]}
+","Revision status","Revision status","","","","","","","","","",,"required","","http://example.org/ValueSet/RevisionStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#liXWgMY482d
+",,,,"Epidemiologist.revisionStatus",1,1,"",""
+"Epidemiologist","Epidemiologist.nationalPublicHealthMeasures","Epidemiologist.nationalPublicHealthMeasures","","","",0,1,"","","","code {[]} {[]}
+","National Public health measures","National Public health measures","","","","","","","","","",,"required","","http://example.org/ValueSet/IndividualPublicHealthMeasuresVS","http://example.org/CodeSystem/dhis2-data-elements-cs#KqxOxmjPr8P
+",,,,"Epidemiologist.nationalPublicHealthMeasures",0,1,"",""
+"Epidemiologist","Epidemiologist.transmission","Epidemiologist.transmission","","","",0,1,"","","","code {[]} {[]}
+","Transmission","Transmission","","","","","","","","","",,"required","","http://example.org/ValueSet/TransmissionVS","http://example.org/CodeSystem/dhis2-data-elements-cs#Als7IJZa0rX
+",,,,"Epidemiologist.transmission",0,1,"",""
+"FinalClassification","FinalClassification","FinalClassification","","","",0,*,"","","","null {[]} {[]}
+","Final classification","Final classification","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"FinalClassification","FinalClassification.finalClassification","FinalClassification.finalClassification","","","",0,1,"","","","code {[]} {[]}
+","Final classification","Final classification","","","","","","","","","",,"required","","http://example.org/ValueSet/FinalClassificationVS","http://example.org/CodeSystem/dhis2-data-elements-cs#dYJgsSSJgHs
+",,,,"FinalClassification.finalClassification",0,1,"",""
+"Laboratory","Laboratory","Laboratory","","","",0,*,"","","","null {[]} {[]}
+","Laboratory","Laboratory","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Laboratory","Laboratory.sampleLabId","Laboratory.sampleLabId","","","",0,1,"","","","string {[]} {[]}
+","Sample lab ID","Sample lab ID","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#sQiBsUwzELG
+",,,,"Laboratory.sampleLabId",0,1,"",""
+"Laboratory","Laboratory.dateSampleTaken","Laboratory.dateSampleTaken","","","",0,1,"","","","date {[]} {[]}
+","Date sample taken","Date sample taken","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#whgBiFURMOW
+",,,,"Laboratory.dateSampleTaken",0,1,"",""
+"Laboratory","Laboratory.dateSampleDeliveredToLab","Laboratory.dateSampleDeliveredToLab","","","",0,1,"","","","date {[]} {[]}
+","Date sample delivered to lab","Date sample delivered to lab","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#rog9VZpf1Fc
+",,,,"Laboratory.dateSampleDeliveredToLab",0,1,"",""
+"Laboratory","Laboratory.dateSampleTested","Laboratory.dateSampleTested","","","",0,1,"","","","date {[]} {[]}
+","Date sample tested","Date sample tested","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#lmEOrK9lpKu
+",,,,"Laboratory.dateSampleTested",0,1,"",""
+"Laboratory","Laboratory.dateOfTheResult","Laboratory.dateOfTheResult","","","",0,1,"","","","date {[]} {[]}
+","Date of the result","Date of the result","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#T0OALfuHqRF
+",,,,"Laboratory.dateOfTheResult",0,1,"",""
+"Laboratory","Laboratory.laboratoryName","Laboratory.laboratoryName","","","",0,1,"","","","code {[]} {[]}
+","Laboratory name","Laboratory name","","","","","","","","","",,"required","","http://example.org/ValueSet/LabNameVS","http://example.org/CodeSystem/dhis2-data-elements-cs#z6fr0FpQ3qq
+",,,,"Laboratory.laboratoryName",0,1,"",""
+"Laboratory","Laboratory.sampleType","Laboratory.sampleType","","","",0,1,"","","","code {[]} {[]}
+","Sample type","Sample type","","","","","","","","","",,"required","","http://example.org/ValueSet/SampleTypeVS","http://example.org/CodeSystem/dhis2-data-elements-cs#THVoO08ASf9
+",,,,"Laboratory.sampleType",0,1,"",""
+"Laboratory","Laboratory.testType","Laboratory.testType","","","",0,1,"","","","code {[]} {[]}
+","Test type","Test type","","","","","","","","","",,"required","","http://example.org/ValueSet/TestTypeVS","http://example.org/CodeSystem/dhis2-data-elements-cs#c4wNYHVO0Cw
+",,,,"Laboratory.testType",0,1,"",""
+"Laboratory","Laboratory.measlesIgmElisa","Laboratory.measlesIgmElisa","","","",0,1,"","","","code {[]} {[]}
+","Measles IgM ELISA","Measles IgM ELISA","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#dp8AIO0KKPZ
+",,,,"Laboratory.measlesIgmElisa",0,1,"",""
+"Laboratory","Laboratory.measlesIggElisa","Laboratory.measlesIggElisa","","","",0,1,"","","","code {[]} {[]}
+","Measles IgG ELISA","Measles IgG ELISA","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#mAOXKSwLhcT
+",,,,"Laboratory.measlesIggElisa",0,1,"",""
+"Laboratory","Laboratory.measlesPcr","Laboratory.measlesPcr","","","",0,1,"","","","code {[]} {[]}
+","Measles PCR","Measles PCR","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#Ws1NT6pOqL4
+",,,,"Laboratory.measlesPcr",0,1,"",""
+"Laboratory","Laboratory.virusIsolation","Laboratory.virusIsolation","","","",0,1,"","","","code {[]} {[]}
+","Virus isolation","Virus isolation","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#AOybyqL0IJV
+",,,,"Laboratory.virusIsolation",0,1,"",""
+"Laboratory","Laboratory.measlesGenotyping","Laboratory.measlesGenotyping","","","",0,1,"","","","code {[]} {[]}
+","Measles genotyping","Measles genotyping","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#kfCeJvQmIW2
+",,,,"Laboratory.measlesGenotyping",0,1,"",""
+"Laboratory","Laboratory.rapidDiagnosticTest","Laboratory.rapidDiagnosticTest","","","",0,1,"","","","code {[]} {[]}
+","Rapid diagnostic test","Rapid diagnostic test","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#DkZXBW0S5XG
+",,,,"Laboratory.rapidDiagnosticTest",0,1,"",""
+"Laboratory","Laboratory.sampleStatus","Laboratory.sampleStatus","","","",0,1,"","","","code {[]} {[]}
+","Sample status","Sample status","","","","","","","","","",,"required","","http://example.org/ValueSet/SampleStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#hVdxk2eemiY
+",,,,"Laboratory.sampleStatus",0,1,"",""
+"Measles","Measles","Measles","","","",0,*,"","","","null {[]} {[]}
+","Measles","Measles","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Measles","Measles.id","Measles.id","","","",1,1,"","","","string {[]} {[]}
+","ID","ID","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#UWodgvnPnt6
+",,,,"Measles.id",1,1,"",""
+"Measles","Measles.nationalIdNumber","Measles.nationalIdNumber","","","",1,1,"","","","string {[]} {[]}
+","National ID number","National ID number","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#L6WNZMhuxR3
+",,,,"Measles.nationalIdNumber",1,1,"",""
+"Measles","Measles.firstName","Measles.firstName","","","",0,1,"","","","string {[]} {[]}
+","First name","First name","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#PWtYn9NOXEO
+",,,,"Measles.firstName",0,1,"",""
+"Measles","Measles.lastName","Measles.lastName","","","",1,1,"","","","string {[]} {[]}
+","Last Name","Last Name","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#ZNACp7TZNvT
+",,,,"Measles.lastName",1,1,"",""
+"Measles","Measles.middleName","Measles.middleName","","","",0,1,"","","","string {[]} {[]}
+","Middle Name","Middle Name","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#Ttp29mbPncP
+",,,,"Measles.middleName",0,1,"",""
+"Measles","Measles.gender","Measles.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,"required","","http://example.org/ValueSet/GenderVS","http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#uHnTMC13n1b
+",,,,"Measles.gender",0,1,"",""
+"Measles","Measles.dateOfBirth","Measles.dateOfBirth","","","",1,1,"","","","date {[]} {[]}
+","Date of birth","Date of birth","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#Vk0AMXO4hEK
+",,,,"Measles.dateOfBirth",1,1,"",""
+"Measles","Measles.emailAdress","Measles.emailAdress","","","",0,1,"","","","string {[]} {[]}
+","Email adress","Email adress","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#nBAp1YCfpwr
+",,,,"Measles.emailAdress",0,1,"",""
+"Measles","Measles.phoneNumber","Measles.phoneNumber","","","",0,1,"","","","string {[]} {[]}
+","Phone number","Phone number","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#IUbA5LpfnUI
+",,,,"Measles.phoneNumber",0,1,"",""
+"Measles","Measles.placeOfResidence","Measles.placeOfResidence","","","",0,1,"","","","string {[]} {[]}
+","Place of residence","Place of residence","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs#ExiLfngjOBI
+",,,,"Measles.placeOfResidence",0,1,"",""
+"Measles","Measles.clinicalReport","Measles.clinicalReport","","","",0,1,"","","","http://example.org/StructureDefinition/ClinicalReport {[]} {[]}
+","Clinical report","Clinical report","","","","","","","","","",,,,,"",,,,"Measles.clinicalReport",0,1,"",""
+"Measles","Measles.laboratory","Measles.laboratory","","","",0,*,"","","","http://example.org/StructureDefinition/Laboratory {[]} {[]}
+","Laboratory","Laboratory","","","","","","","","","",,,,,"",,,,"Measles.laboratory",0,*,"",""
+"Measles","Measles.finalClassification","Measles.finalClassification","","","",0,1,"","","","http://example.org/StructureDefinition/FinalClassification {[]} {[]}
+","Final classification","Final classification","","","","","","","","","",,,,,"",,,,"Measles.finalClassification",0,1,"",""
+"Measles","Measles.regionalHealthAuthority","Measles.regionalHealthAuthority","","","",0,1,"","","","http://example.org/StructureDefinition/RegionalHealthAuthority {[]} {[]}
+","Regional health authority","Regional health authority","","","","","","","","","",,,,,"",,,,"Measles.regionalHealthAuthority",0,1,"",""
+"Measles","Measles.epidemiologist","Measles.epidemiologist","","","",0,1,"","","","http://example.org/StructureDefinition/Epidemiologist {[]} {[]}
+","Epidemiologist","Epidemiologist","","","","","","","","","",,,,,"",,,,"Measles.epidemiologist",0,1,"",""
+"RegionalHealthAuthority","RegionalHealthAuthority","RegionalHealthAuthority","","","",0,*,"","","","null {[]} {[]}
+","Regional health authority","Regional health authority","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"RegionalHealthAuthority","RegionalHealthAuthority.revisionStatus","RegionalHealthAuthority.revisionStatus","","","",1,1,"","","","code {[]} {[]}
+","Revision status","Revision status","","","","","","","","","",,"required","","http://example.org/ValueSet/RevisionStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#liXWgMY482d
+",,,,"RegionalHealthAuthority.revisionStatus",1,1,"",""
+"RegionalHealthAuthority","RegionalHealthAuthority.clinicalReportStatus","RegionalHealthAuthority.clinicalReportStatus","","","",0,1,"","","","code {[]} {[]}
+","Clinical report status","Clinical report status","","","","","","","","","",,"required","","http://example.org/ValueSet/ReportStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#dJWO6DspupD
+",,,,"RegionalHealthAuthority.clinicalReportStatus",0,1,"",""
+"RegionalHealthAuthority","RegionalHealthAuthority.individualPublicHealthMeasures","RegionalHealthAuthority.individualPublicHealthMeasures","","","",0,1,"","","","code {[]} {[]}
+","Individual Public health measures","Individual Public health measures","","","","","","","","","",,"required","","http://example.org/ValueSet/IndividualPublicHealthMeasuresVS","http://example.org/CodeSystem/dhis2-data-elements-cs#IJy0574yyrP
+",,,,"RegionalHealthAuthority.individualPublicHealthMeasures",0,1,"",""

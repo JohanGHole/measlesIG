@@ -1,0 +1,306 @@
+DHIS2MeaslesExampleIG : Validation Results
+=========================================
+
+err = 54, warn = 71, info = 92
+$--
+Generated $--. FHIR version $-- for dhis2.measles.example#$-- (canonical = http://example.org)
+ Build Errors : 0 / 41 / 0
+ /work/fsh-generated/resources/CodeSystem-FinalClassificationCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-GenderCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-IndividualPublicHealthMeasuresCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-LabNameCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-ReportStatusCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-ResultCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-RevisionStatusCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-SampleStatusCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-SampleTypeCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-TestTypeCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-TransmissionCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-TypeOfRashCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-YesNoUnknownCS : 1 / 1 / 4
+ /work/fsh-generated/resources/CodeSystem-dhis2-data-elements-cs : 0 / 2 / 2
+ /work/fsh-generated/resources/CodeSystem-dhis2-tracked-entity-attributes-cs : 0 / 2 / 2
+ /work/fsh-generated/resources/ImplementationGuide-dhis2.measles.example : 0 / 0 / 1
+ /work/fsh-generated/resources/Questionnaire-ClinicalReportQuestionnaire : 4 / 0 / 9
+ /work/fsh-generated/resources/Questionnaire-EpidemiologistQuestionnaire : 6 / 0 / 13
+ /work/fsh-generated/resources/Questionnaire-FinalClassificationQuestionnaire : 2 / 0 / 5
+ /work/fsh-generated/resources/Questionnaire-LaboratoryQuestionnaire : 10 / 0 / 21
+ /work/fsh-generated/resources/Questionnaire-RegionalHealthAuthorityQuestionnaire : 6 / 0 / 13
+ /work/fsh-generated/resources/StructureDefinition-ClinicalReport : 0 / 0 / 27
+ /work/fsh-generated/resources/StructureDefinition-Epidemiologist : 0 / 0 / 7
+ /work/fsh-generated/resources/StructureDefinition-FinalClassification : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-Laboratory : 0 / 0 / 31
+ /work/fsh-generated/resources/StructureDefinition-Measles : 0 / 0 / 21
+ /work/fsh-generated/resources/StructureDefinition-RegionalHealthAuthority : 0 / 0 / 7
+ /work/fsh-generated/resources/ValueSet-FinalClassificationVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-GenderVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-IndividualPublicHealthMeasuresVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-LabNameVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-ReportStatusVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-ResultVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-RevisionStatusVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-SampleStatusVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-SampleTypeVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-TestTypeVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-TransmissionVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-TypeOfRashVS : 1 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-YesNoUnknownVS : 1 / 1 / 6
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ClinicalReport.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Epidemiologist.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/FinalClassification.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Laboratory.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Measles.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/RegionalHealthAuthority.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/ClinicalReportQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/EpidemiologistQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/FinalClassificationQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/LaboratoryQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/RegionalHealthAuthorityQuestionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/FinalClassificationVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/GenderVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/IndividualPublicHealthMeasuresVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/LabNameVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ReportStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ResultVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/RevisionStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/SampleStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/SampleTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/TestTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/TransmissionVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/TypeOfRashVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/YesNoUnknownVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/FinalClassificationCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/GenderCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/IndividualPublicHealthMeasuresCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/LabNameCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/ReportStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/ResultCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/RevisionStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/SampleStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/SampleTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TestTypeCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TransmissionCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/TypeOfRashCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/YesNoUnknownCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-FinalClassificationCS.json ==
+ERROR: CodeSystem/FinalClassificationCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/FinalClassificationCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-GenderCS.json ==
+ERROR: CodeSystem/GenderCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/GenderCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-IndividualPublicHealthMeasuresCS.json ==
+ERROR: CodeSystem/IndividualPublicHealthMeasuresCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/IndividualPublicHealthMeasuresCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-LabNameCS.json ==
+ERROR: CodeSystem/LabNameCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/LabNameCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-ReportStatusCS.json ==
+ERROR: CodeSystem/ReportStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/ReportStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-ResultCS.json ==
+ERROR: CodeSystem/ResultCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/ResultCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-RevisionStatusCS.json ==
+ERROR: CodeSystem/RevisionStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/RevisionStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-SampleStatusCS.json ==
+ERROR: CodeSystem/SampleStatusCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/SampleStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-SampleTypeCS.json ==
+ERROR: CodeSystem/SampleTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/SampleTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-TestTypeCS.json ==
+ERROR: CodeSystem/TestTypeCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/TestTypeCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-TransmissionCS.json ==
+ERROR: CodeSystem/TransmissionCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/TransmissionCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-TypeOfRashCS.json ==
+ERROR: CodeSystem/TypeOfRashCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/TypeOfRashCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-YesNoUnknownCS.json ==
+ERROR: CodeSystem/YesNoUnknownCS: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|1.0.0)
+WARNING: CodeSystem/YesNoUnknownCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-dhis2-data-elements-cs.json ==
+INFORMATION: CodeSystem/dhis2-data-elements-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/dhis2-data-elements-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/dhis2-data-elements-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-dhis2-tracked-entity-attributes-cs.json ==
+INFORMATION: CodeSystem/dhis2-tracked-entity-attributes-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/dhis2-tracked-entity-attributes-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/dhis2-tracked-entity-attributes-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-dhis2.measles.example.json ==
+== fsh-generated/resources/Questionnaire-ClinicalReportQuestionnaire.json ==
+ERROR: Questionnaire/ClinicalReportQuestionnaire: Questionnaire.contained[0]/*ValueSet/YesNoUnknownVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/ClinicalReportQuestionnaire: Questionnaire.contained[0]/*ValueSet/YesNoUnknownVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/ClinicalReportQuestionnaire: Questionnaire.contained[1]/*ValueSet/TypeOfRashVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/ClinicalReportQuestionnaire: Questionnaire.contained[1]/*ValueSet/TypeOfRashVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/Questionnaire-EpidemiologistQuestionnaire.json ==
+ERROR: Questionnaire/EpidemiologistQuestionnaire: Questionnaire.contained[0]/*ValueSet/RevisionStatusVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/EpidemiologistQuestionnaire: Questionnaire.contained[0]/*ValueSet/RevisionStatusVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/EpidemiologistQuestionnaire: Questionnaire.contained[1]/*ValueSet/IndividualPublicHealthMeasuresVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/EpidemiologistQuestionnaire: Questionnaire.contained[1]/*ValueSet/IndividualPublicHealthMeasuresVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/EpidemiologistQuestionnaire: Questionnaire.contained[2]/*ValueSet/TransmissionVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/EpidemiologistQuestionnaire: Questionnaire.contained[2]/*ValueSet/TransmissionVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/Questionnaire-FinalClassificationQuestionnaire.json ==
+ERROR: Questionnaire/FinalClassificationQuestionnaire: Questionnaire.contained[0]/*ValueSet/FinalClassificationVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/FinalClassificationQuestionnaire: Questionnaire.contained[0]/*ValueSet/FinalClassificationVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/Questionnaire-LaboratoryQuestionnaire.json ==
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[0]/*ValueSet/LabNameVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[0]/*ValueSet/LabNameVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[1]/*ValueSet/SampleTypeVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[1]/*ValueSet/SampleTypeVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[2]/*ValueSet/TestTypeVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[2]/*ValueSet/TestTypeVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[3]/*ValueSet/ResultVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[3]/*ValueSet/ResultVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[4]/*ValueSet/SampleStatusVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/LaboratoryQuestionnaire: Questionnaire.contained[4]/*ValueSet/SampleStatusVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/Questionnaire-RegionalHealthAuthorityQuestionnaire.json ==
+ERROR: Questionnaire/RegionalHealthAuthorityQuestionnaire: Questionnaire.contained[0]/*ValueSet/RevisionStatusVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/RegionalHealthAuthorityQuestionnaire: Questionnaire.contained[0]/*ValueSet/RevisionStatusVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/RegionalHealthAuthorityQuestionnaire: Questionnaire.contained[1]/*ValueSet/ReportStatusVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/RegionalHealthAuthorityQuestionnaire: Questionnaire.contained[1]/*ValueSet/ReportStatusVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+ERROR: Questionnaire/RegionalHealthAuthorityQuestionnaire: Questionnaire.contained[2]/*ValueSet/IndividualPublicHealthMeasuresVS*/: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+ERROR: Questionnaire/RegionalHealthAuthorityQuestionnaire: Questionnaire.contained[2]/*ValueSet/IndividualPublicHealthMeasuresVS*/: ValueSet.date: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|1.0.0)
+== fsh-generated/resources/StructureDefinition-ClinicalReport.json ==
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[4].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[5].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[6].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[7].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[8].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[9].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[10].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[11].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[12].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.snapshot.element[13].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[4].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[5].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[6].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[7].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[8].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[9].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[10].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[11].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[12].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/ClinicalReport: StructureDefinition.differential.element[13].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+== fsh-generated/resources/StructureDefinition-Epidemiologist.json ==
+INFORMATION: StructureDefinition/Epidemiologist: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Epidemiologist: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Epidemiologist: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Epidemiologist: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Epidemiologist: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Epidemiologist: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+== fsh-generated/resources/StructureDefinition-FinalClassification.json ==
+INFORMATION: StructureDefinition/FinalClassification: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/FinalClassification: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+== fsh-generated/resources/StructureDefinition-Laboratory.json ==
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[4].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[5].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[6].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[7].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[8].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[9].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[10].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[11].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[12].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[13].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[14].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.snapshot.element[15].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[4].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[5].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[6].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[7].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[8].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[9].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[10].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[11].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[12].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[13].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[14].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/Laboratory: StructureDefinition.differential.element[15].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+== fsh-generated/resources/StructureDefinition-Measles.json ==
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[4].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[5].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[6].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[7].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[8].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[9].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.snapshot.element[10].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[4].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[5].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[6].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[7].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[8].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[9].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+INFORMATION: StructureDefinition/Measles: StructureDefinition.differential.element[10].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs|0.1.0
+== fsh-generated/resources/StructureDefinition-RegionalHealthAuthority.json ==
+INFORMATION: StructureDefinition/RegionalHealthAuthority: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/RegionalHealthAuthority: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/RegionalHealthAuthority: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/RegionalHealthAuthority: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/RegionalHealthAuthority: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+INFORMATION: StructureDefinition/RegionalHealthAuthority: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://example.org/CodeSystem/dhis2-data-elements-cs|0.1.0
+== fsh-generated/resources/ValueSet-FinalClassificationVS.json ==
+ERROR: ValueSet/FinalClassificationVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/FinalClassificationVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-GenderVS.json ==
+ERROR: ValueSet/GenderVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/GenderVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-IndividualPublicHealthMeasuresVS.json ==
+ERROR: ValueSet/IndividualPublicHealthMeasuresVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/IndividualPublicHealthMeasuresVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-LabNameVS.json ==
+ERROR: ValueSet/LabNameVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/LabNameVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ReportStatusVS.json ==
+ERROR: ValueSet/ReportStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/ReportStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ResultVS.json ==
+ERROR: ValueSet/ResultVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/ResultVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-RevisionStatusVS.json ==
+ERROR: ValueSet/RevisionStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/RevisionStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-SampleStatusVS.json ==
+ERROR: ValueSet/SampleStatusVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/SampleStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-SampleTypeVS.json ==
+ERROR: ValueSet/SampleTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/SampleTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-TestTypeVS.json ==
+ERROR: ValueSet/TestTypeVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/TestTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-TransmissionVS.json ==
+ERROR: ValueSet/TransmissionVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/TransmissionVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-TypeOfRashVS.json ==
+ERROR: ValueSet/TypeOfRashVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/TypeOfRashVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-YesNoUnknownVS.json ==
+ERROR: ValueSet/YesNoUnknownVS: ValueSet: ValueSet.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|1.0.0)
+WARNING: ValueSet/YesNoUnknownVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

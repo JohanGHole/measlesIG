@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://example.org/ValueSet-TestTypeVS.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-03T19:04:11.754260Z",
+  "@graph": [
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#IGM_ELISA",
+      "name": "Measles IgM ELISA",
+      "fhir:code": "IGM_ELISA",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#IGG_ELISA",
+      "name": "Measles IgG ELISA",
+      "fhir:code": "IGG_ELISA",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#PCR",
+      "name": "Measles PCR",
+      "fhir:code": "PCR",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#VIRUS_ISOLATION",
+      "name": "Virus isolation",
+      "fhir:code": "VIRUS_ISOLATION",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#GENOTYPING",
+      "name": "Measles genotyping",
+      "fhir:code": "GENOTYPING",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#RAPID_TEST",
+      "name": "Rapid diagnostic test",
+      "fhir:code": "RAPID_TEST",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#OTHER",
+      "name": "Other",
+      "fhir:code": "OTHER",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-TestTypeVS.jsonld#UNKNOWN",
+      "name": "Unknown",
+      "fhir:code": "UNKNOWN",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-TestTypeCS"
+    }
+  ]
+}

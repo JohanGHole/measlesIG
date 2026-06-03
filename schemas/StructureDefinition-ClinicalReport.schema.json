@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/base/StructureDefinition-ClinicalReport.schema.json",
+  "title": "Clinical report",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "resourceType": {
+      "type": "string",
+      "const": "ClinicalReport",
+      "description": "Resource type identifier for ClinicalReport logical model"
+    },
+    "@context": {
+      "description": "JSON-LD context for this logical model with ValueSet vocabularies",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "description": "URI reference to external JSON-LD context"
+        },
+        {
+          "type": "object",
+          "description": "Inline JSON-LD context",
+          "properties": {
+            "@version": {
+              "type": "number",
+              "const": 1.1
+            },
+            "fhir": {
+              "type": "string",
+              "const": "http://hl7.org/fhir/"
+            }
+          },
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        {
+          "type": "array",
+          "description": "Array of JSON-LD context objects/URIs",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "object"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "@type": {
+      "type": "string",
+      "description": "JSON-LD type identifier for ClinicalReport logical model",
+      "examples": [
+        "LogicalModel-ClinicalReport"
+      ]
+    },
+    "vaccinatedAgainstMeaslesRubella": {
+      "type": "boolean",
+      "description": "Vaccinated against Measles/Rubella"
+    },
+    "fever": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Fever"
+    },
+    "dateOfFeverOnset": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of fever onset"
+    },
+    "rash": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Rash"
+    },
+    "durationOfTheRash": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Duration of the rash"
+    },
+    "dateOfRashOnset": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of rash onset"
+    },
+    "typeOfRash": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet TypeOfRashVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet TypeOfRashVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-TypeOfRashVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet TypeOfRashVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet TypeOfRashVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Type of rash"
+    },
+    "cough": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Cough"
+    },
+    "conjunctivities": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Conjunctivities"
+    },
+    "coryza": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Coryza"
+    },
+    "koplikSpots": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Koplik Spots"
+    },
+    "lymphadenopathy": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Lymphadenopathy"
+    },
+    "arthralgia": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet YesNoUnknownVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet YesNoUnknownVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet YesNoUnknownVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet YesNoUnknownVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Arthralgia"
+    }
+  },
+  "required": [
+    "resourceType"
+  ],
+  "resourceDefinition": "http://example.org/StructureDefinition/ClinicalReport",
+  "fhir:parent": "http://hl7.org/fhir/StructureDefinition/Base",
+  "jsonld:valuesets": [
+    "TypeOfRashVS",
+    "YesNoUnknownVS"
+  ],
+  "jsonld:contextTemplate": {
+    "@version": 1.1,
+    "fhir": "http://hl7.org/fhir/",
+    "TypeOfRashVS": "http://smart.who.int/base/ValueSet-TypeOfRashVS.jsonld",
+    "YesNoUnknownVS": "http://smart.who.int/base/ValueSet-YesNoUnknownVS.jsonld"
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/base/StructureDefinition-Laboratory.schema.json",
+  "title": "Laboratory",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "resourceType": {
+      "type": "string",
+      "const": "Laboratory",
+      "description": "Resource type identifier for Laboratory logical model"
+    },
+    "@context": {
+      "description": "JSON-LD context for this logical model with ValueSet vocabularies",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "description": "URI reference to external JSON-LD context"
+        },
+        {
+          "type": "object",
+          "description": "Inline JSON-LD context",
+          "properties": {
+            "@version": {
+              "type": "number",
+              "const": 1.1
+            },
+            "fhir": {
+              "type": "string",
+              "const": "http://hl7.org/fhir/"
+            }
+          },
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        {
+          "type": "array",
+          "description": "Array of JSON-LD context objects/URIs",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "object"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "@type": {
+      "type": "string",
+      "description": "JSON-LD type identifier for Laboratory logical model",
+      "examples": [
+        "LogicalModel-Laboratory"
+      ]
+    },
+    "sampleLabId": {
+      "type": "string",
+      "description": "Sample lab ID"
+    },
+    "dateSampleTaken": {
+      "type": "string",
+      "format": "date",
+      "description": "Date sample taken"
+    },
+    "dateSampleDeliveredToLab": {
+      "type": "string",
+      "format": "date",
+      "description": "Date sample delivered to lab"
+    },
+    "dateSampleTested": {
+      "type": "string",
+      "format": "date",
+      "description": "Date sample tested"
+    },
+    "dateOfTheResult": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the result"
+    },
+    "laboratoryName": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet LabNameVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet LabNameVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-LabNameVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet LabNameVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet LabNameVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Laboratory name"
+    },
+    "sampleType": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet SampleTypeVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet SampleTypeVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-SampleTypeVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet SampleTypeVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet SampleTypeVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Sample type"
+    },
+    "testType": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet TestTypeVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet TestTypeVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-TestTypeVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet TestTypeVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet TestTypeVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Test type"
+    },
+    "measlesIgmElisa": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ResultVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ResultVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ResultVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ResultVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Measles IgM ELISA"
+    },
+    "measlesIggElisa": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ResultVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ResultVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ResultVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ResultVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Measles IgG ELISA"
+    },
+    "measlesPcr": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ResultVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ResultVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ResultVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ResultVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Measles PCR"
+    },
+    "virusIsolation": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ResultVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ResultVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ResultVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ResultVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Virus isolation"
+    },
+    "measlesGenotyping": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ResultVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ResultVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ResultVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ResultVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Measles genotyping"
+    },
+    "rapidDiagnosticTest": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ResultVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ResultVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ResultVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ResultVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Rapid diagnostic test"
+    },
+    "sampleStatus": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet SampleStatusVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet SampleStatusVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-SampleStatusVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet SampleStatusVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet SampleStatusVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Sample status"
+    }
+  },
+  "required": [
+    "resourceType"
+  ],
+  "resourceDefinition": "http://example.org/StructureDefinition/Laboratory",
+  "fhir:parent": "http://hl7.org/fhir/StructureDefinition/Base",
+  "jsonld:valuesets": [
+    "SampleTypeVS",
+    "SampleStatusVS",
+    "LabNameVS",
+    "ResultVS",
+    "TestTypeVS"
+  ],
+  "jsonld:contextTemplate": {
+    "@version": 1.1,
+    "fhir": "http://hl7.org/fhir/",
+    "SampleTypeVS": "http://smart.who.int/base/ValueSet-SampleTypeVS.jsonld",
+    "SampleStatusVS": "http://smart.who.int/base/ValueSet-SampleStatusVS.jsonld",
+    "LabNameVS": "http://smart.who.int/base/ValueSet-LabNameVS.jsonld",
+    "ResultVS": "http://smart.who.int/base/ValueSet-ResultVS.jsonld",
+    "TestTypeVS": "http://smart.who.int/base/ValueSet-TestTypeVS.jsonld"
+  }
+}

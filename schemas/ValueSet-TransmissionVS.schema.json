@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-TransmissionVS.schema.json",
+  "title": "Transmission value set Schema",
+  "description": "JSON Schema for Transmission value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/TransmissionCS#LOCAL",
+    "http://example.org/CodeSystem/TransmissionCS#TRAVEL_ASSOCIATED"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Transmission value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-TransmissionVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-TransmissionVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/TransmissionVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.648642"
+}

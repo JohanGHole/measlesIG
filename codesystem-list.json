@@ -1,0 +1,122 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/CodeSystem/FinalClassificationCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FinalClassificationCS",
+    "title" : "Final classification",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/GenderCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GenderCS",
+    "title" : "Gender",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IndividualPublicHealthMeasuresCS",
+    "title" : "Individual Public health measures",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/LabNameCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "LabNameCS",
+    "title" : "Lab name",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/ReportStatusCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ReportStatusCS",
+    "title" : "Report status",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/ResultCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ResultCS",
+    "title" : "Result",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/RevisionStatusCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "RevisionStatusCS",
+    "title" : "Revision status",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/SampleStatusCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SampleStatusCS",
+    "title" : "Sample status",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/SampleTypeCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SampleTypeCS",
+    "title" : "Sample type",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/TestTypeCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TestTypeCS",
+    "title" : "Test type",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/TransmissionCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TransmissionCS",
+    "title" : "Transmission",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/TypeOfRashCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TypeOfRashCS",
+    "title" : "Type of rash",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/YesNoUnknownCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "YesNoUnknownCS",
+    "title" : "Yes/No/Unknown",
+    "description" : ""
+  },
+  {
+    "url" : "http://example.org/CodeSystem/dhis2-data-elements-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "Dhis2DataElementsCS",
+    "title" : "DHIS2 Data Elements",
+    "description" : "Code system for 34 unique DHIS2 data elements from all selected programs"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "Dhis2TrackedEntityAttributesCS",
+    "title" : "DHIS2 Tracked Entity Attributes",
+    "description" : "Code system for 10 unique DHIS2 tracked entity attributes"
+  }]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dhis2-tracked-entity-attributes-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem dhis2-tracked-entity-attributes-cs</b></p><a name="dhis2-tracked-entity-attributes-cs"> </a><a name="hcdhis2-tracked-entity-attributes-cs"> </a><p>This  code system <code>http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">UWodgvnPnt6<a name="dhis2-tracked-entity-attributes-cs-UWodgvnPnt6"> </a></td><td>ID</td><td>ID</td></tr><tr><td style="white-space:nowrap">L6WNZMhuxR3<a name="dhis2-tracked-entity-attributes-cs-L6WNZMhuxR3"> </a></td><td>National ID number</td><td>National ID number</td></tr><tr><td style="white-space:nowrap">PWtYn9NOXEO<a name="dhis2-tracked-entity-attributes-cs-PWtYn9NOXEO"> </a></td><td>First name</td><td>First name</td></tr><tr><td style="white-space:nowrap">ZNACp7TZNvT<a name="dhis2-tracked-entity-attributes-cs-ZNACp7TZNvT"> </a></td><td>Last Name</td><td>Last Name</td></tr><tr><td style="white-space:nowrap">Ttp29mbPncP<a name="dhis2-tracked-entity-attributes-cs-Ttp29mbPncP"> </a></td><td>Middle Name</td><td>Middle Name</td></tr><tr><td style="white-space:nowrap">uHnTMC13n1b<a name="dhis2-tracked-entity-attributes-cs-uHnTMC13n1b"> </a></td><td>Gender</td><td>Gender</td></tr><tr><td style="white-space:nowrap">Vk0AMXO4hEK<a name="dhis2-tracked-entity-attributes-cs-Vk0AMXO4hEK"> </a></td><td>Date of birth</td><td>Date of birth</td></tr><tr><td style="white-space:nowrap">nBAp1YCfpwr<a name="dhis2-tracked-entity-attributes-cs-nBAp1YCfpwr"> </a></td><td>Email adress</td><td>Email adress</td></tr><tr><td style="white-space:nowrap">IUbA5LpfnUI<a name="dhis2-tracked-entity-attributes-cs-IUbA5LpfnUI"> </a></td><td>Phone number</td><td>Phone number</td></tr><tr><td style="white-space:nowrap">ExiLfngjOBI<a name="dhis2-tracked-entity-attributes-cs-ExiLfngjOBI"> </a></td><td>Place of residence</td><td>Place of residence</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs"/>
+  <version value="0.1.0"/>
+  <name value="Dhis2TrackedEntityAttributesCS"/>
+  <title value="DHIS2 Tracked Entity Attributes"/>
+  <status value="draft"/>
+  <date value="2026-06-03T19:02:34+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for 10 unique DHIS2 tracked entity attributes"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="UWodgvnPnt6"/>
+    <display value="ID"/>
+    <definition value="ID"/>
+  </concept>
+  <concept>
+    <code value="L6WNZMhuxR3"/>
+    <display value="National ID number"/>
+    <definition value="National ID number"/>
+  </concept>
+  <concept>
+    <code value="PWtYn9NOXEO"/>
+    <display value="First name"/>
+    <definition value="First name"/>
+  </concept>
+  <concept>
+    <code value="ZNACp7TZNvT"/>
+    <display value="Last Name"/>
+    <definition value="Last Name"/>
+  </concept>
+  <concept>
+    <code value="Ttp29mbPncP"/>
+    <display value="Middle Name"/>
+    <definition value="Middle Name"/>
+  </concept>
+  <concept>
+    <code value="uHnTMC13n1b"/>
+    <display value="Gender"/>
+    <definition value="Gender"/>
+  </concept>
+  <concept>
+    <code value="Vk0AMXO4hEK"/>
+    <display value="Date of birth"/>
+    <definition value="Date of birth"/>
+  </concept>
+  <concept>
+    <code value="nBAp1YCfpwr"/>
+    <display value="Email adress"/>
+    <definition value="Email adress"/>
+  </concept>
+  <concept>
+    <code value="IUbA5LpfnUI"/>
+    <display value="Phone number"/>
+    <definition value="Phone number"/>
+  </concept>
+  <concept>
+    <code value="ExiLfngjOBI"/>
+    <display value="Place of residence"/>
+    <definition value="Place of residence"/>
+  </concept>
+</CodeSystem>

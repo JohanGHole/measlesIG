@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/base/StructureDefinition-RegionalHealthAuthority.schema.json",
+  "title": "Regional health authority",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "resourceType": {
+      "type": "string",
+      "const": "RegionalHealthAuthority",
+      "description": "Resource type identifier for RegionalHealthAuthority logical model"
+    },
+    "@context": {
+      "description": "JSON-LD context for this logical model with ValueSet vocabularies",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "description": "URI reference to external JSON-LD context"
+        },
+        {
+          "type": "object",
+          "description": "Inline JSON-LD context",
+          "properties": {
+            "@version": {
+              "type": "number",
+              "const": 1.1
+            },
+            "fhir": {
+              "type": "string",
+              "const": "http://hl7.org/fhir/"
+            }
+          },
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        {
+          "type": "array",
+          "description": "Array of JSON-LD context objects/URIs",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "object"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "@type": {
+      "type": "string",
+      "description": "JSON-LD type identifier for RegionalHealthAuthority logical model",
+      "examples": [
+        "LogicalModel-RegionalHealthAuthority"
+      ]
+    },
+    "revisionStatus": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet RevisionStatusVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet RevisionStatusVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-RevisionStatusVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet RevisionStatusVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet RevisionStatusVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Revision status"
+    },
+    "clinicalReportStatus": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet ReportStatusVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet ReportStatusVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-ReportStatusVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet ReportStatusVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet ReportStatusVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Clinical report status"
+    },
+    "individualPublicHealthMeasures": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet IndividualPublicHealthMeasuresVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet IndividualPublicHealthMeasuresVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-IndividualPublicHealthMeasuresVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet IndividualPublicHealthMeasuresVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet IndividualPublicHealthMeasuresVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Individual Public health measures"
+    }
+  },
+  "required": [
+    "resourceType",
+    "revisionStatus"
+  ],
+  "resourceDefinition": "http://example.org/StructureDefinition/RegionalHealthAuthority",
+  "fhir:parent": "http://hl7.org/fhir/StructureDefinition/Base",
+  "jsonld:valuesets": [
+    "IndividualPublicHealthMeasuresVS",
+    "RevisionStatusVS",
+    "ReportStatusVS"
+  ],
+  "jsonld:contextTemplate": {
+    "@version": 1.1,
+    "fhir": "http://hl7.org/fhir/",
+    "IndividualPublicHealthMeasuresVS": "http://smart.who.int/base/ValueSet-IndividualPublicHealthMeasuresVS.jsonld",
+    "RevisionStatusVS": "http://smart.who.int/base/ValueSet-RevisionStatusVS.jsonld",
+    "ReportStatusVS": "http://smart.who.int/base/ValueSet-ReportStatusVS.jsonld"
+  }
+}

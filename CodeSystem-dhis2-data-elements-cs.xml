@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="dhis2-data-elements-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem dhis2-data-elements-cs</b></p><a name="dhis2-data-elements-cs"> </a><a name="hcdhis2-data-elements-cs"> </a><p>This  code system <code>http://example.org/CodeSystem/dhis2-data-elements-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">sx65Ijl09gx<a name="dhis2-data-elements-cs-sx65Ijl09gx"> </a></td><td>Vaccinated against Measles/Rubella</td><td>Vaccinated against Measles/Rubella</td></tr><tr><td style="white-space:nowrap">R6o8SL217JB<a name="dhis2-data-elements-cs-R6o8SL217JB"> </a></td><td>Fever</td><td>Fever</td></tr><tr><td style="white-space:nowrap">kMzOKNO3n0q<a name="dhis2-data-elements-cs-kMzOKNO3n0q"> </a></td><td>Date of fever onset</td><td>Date of fever onset</td></tr><tr><td style="white-space:nowrap">rF81w0SBlrF<a name="dhis2-data-elements-cs-rF81w0SBlrF"> </a></td><td>Rash</td><td>Rash</td></tr><tr><td style="white-space:nowrap">dUKQSnRbqSJ<a name="dhis2-data-elements-cs-dUKQSnRbqSJ"> </a></td><td>Duration of the rash</td><td>Duration of the rash</td></tr><tr><td style="white-space:nowrap">pLnmZUadUXA<a name="dhis2-data-elements-cs-pLnmZUadUXA"> </a></td><td>Date of rash onset</td><td>Date of rash onset</td></tr><tr><td style="white-space:nowrap">fkKMZsHl8np<a name="dhis2-data-elements-cs-fkKMZsHl8np"> </a></td><td>Type of rash</td><td>Type of rash</td></tr><tr><td style="white-space:nowrap">XM4BWbRIruu<a name="dhis2-data-elements-cs-XM4BWbRIruu"> </a></td><td>Cough</td><td>Cough</td></tr><tr><td style="white-space:nowrap">V9UlOFxpWF6<a name="dhis2-data-elements-cs-V9UlOFxpWF6"> </a></td><td>Conjunctivities</td><td>Conjunctivities</td></tr><tr><td style="white-space:nowrap">cbVD6ChL4XM<a name="dhis2-data-elements-cs-cbVD6ChL4XM"> </a></td><td>Coryza</td><td>Coryza</td></tr><tr><td style="white-space:nowrap">H5U2xFeUvQM<a name="dhis2-data-elements-cs-H5U2xFeUvQM"> </a></td><td>Koplik Spots</td><td>Koplik Spots</td></tr><tr><td style="white-space:nowrap">RJG70pkQAwB<a name="dhis2-data-elements-cs-RJG70pkQAwB"> </a></td><td>Lymphadenopathy</td><td>Lymphadenopathy</td></tr><tr><td style="white-space:nowrap">jQH7iLQFCD8<a name="dhis2-data-elements-cs-jQH7iLQFCD8"> </a></td><td>Arthralgia</td><td>Arthralgia</td></tr><tr><td style="white-space:nowrap">sQiBsUwzELG<a name="dhis2-data-elements-cs-sQiBsUwzELG"> </a></td><td>Sample lab ID</td><td>Sample lab ID</td></tr><tr><td style="white-space:nowrap">whgBiFURMOW<a name="dhis2-data-elements-cs-whgBiFURMOW"> </a></td><td>Date sample taken</td><td>Date sample taken</td></tr><tr><td style="white-space:nowrap">rog9VZpf1Fc<a name="dhis2-data-elements-cs-rog9VZpf1Fc"> </a></td><td>Date sample delivered to lab</td><td>Date sample delivered to lab</td></tr><tr><td style="white-space:nowrap">lmEOrK9lpKu<a name="dhis2-data-elements-cs-lmEOrK9lpKu"> </a></td><td>Date sample tested</td><td>Date sample tested</td></tr><tr><td style="white-space:nowrap">T0OALfuHqRF<a name="dhis2-data-elements-cs-T0OALfuHqRF"> </a></td><td>Date of the result</td><td>Date of the result</td></tr><tr><td style="white-space:nowrap">z6fr0FpQ3qq<a name="dhis2-data-elements-cs-z6fr0FpQ3qq"> </a></td><td>Laboratory name</td><td>Laboratory name</td></tr><tr><td style="white-space:nowrap">THVoO08ASf9<a name="dhis2-data-elements-cs-THVoO08ASf9"> </a></td><td>Sample type</td><td>Sample type</td></tr><tr><td style="white-space:nowrap">c4wNYHVO0Cw<a name="dhis2-data-elements-cs-c4wNYHVO0Cw"> </a></td><td>Test type</td><td>Test type</td></tr><tr><td style="white-space:nowrap">dp8AIO0KKPZ<a name="dhis2-data-elements-cs-dp8AIO0KKPZ"> </a></td><td>Measles IgM ELISA</td><td>Measles IgM ELISA</td></tr><tr><td style="white-space:nowrap">mAOXKSwLhcT<a name="dhis2-data-elements-cs-mAOXKSwLhcT"> </a></td><td>Measles IgG ELISA</td><td>Measles IgG ELISA</td></tr><tr><td style="white-space:nowrap">Ws1NT6pOqL4<a name="dhis2-data-elements-cs-Ws1NT6pOqL4"> </a></td><td>Measles PCR</td><td>Measles PCR</td></tr><tr><td style="white-space:nowrap">AOybyqL0IJV<a name="dhis2-data-elements-cs-AOybyqL0IJV"> </a></td><td>Virus isolation</td><td>Virus isolation</td></tr><tr><td style="white-space:nowrap">kfCeJvQmIW2<a name="dhis2-data-elements-cs-kfCeJvQmIW2"> </a></td><td>Measles genotyping</td><td>Measles genotyping</td></tr><tr><td style="white-space:nowrap">DkZXBW0S5XG<a name="dhis2-data-elements-cs-DkZXBW0S5XG"> </a></td><td>Rapid diagnostic test</td><td>Rapid diagnostic test</td></tr><tr><td style="white-space:nowrap">hVdxk2eemiY<a name="dhis2-data-elements-cs-hVdxk2eemiY"> </a></td><td>Sample status</td><td>Sample status</td></tr><tr><td style="white-space:nowrap">dYJgsSSJgHs<a name="dhis2-data-elements-cs-dYJgsSSJgHs"> </a></td><td>Final classification</td><td>Final classification</td></tr><tr><td style="white-space:nowrap">liXWgMY482d<a name="dhis2-data-elements-cs-liXWgMY482d"> </a></td><td>Revision status</td><td>Revision status</td></tr><tr><td style="white-space:nowrap">dJWO6DspupD<a name="dhis2-data-elements-cs-dJWO6DspupD"> </a></td><td>Clinical report status</td><td>Clinical report status</td></tr><tr><td style="white-space:nowrap">IJy0574yyrP<a name="dhis2-data-elements-cs-IJy0574yyrP"> </a></td><td>Individual Public health measures</td><td>Individual Public health measures</td></tr><tr><td style="white-space:nowrap">KqxOxmjPr8P<a name="dhis2-data-elements-cs-KqxOxmjPr8P"> </a></td><td>National Public health measures</td><td>National Public health measures</td></tr><tr><td style="white-space:nowrap">Als7IJZa0rX<a name="dhis2-data-elements-cs-Als7IJZa0rX"> </a></td><td>Transmission</td><td>Transmission</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+  <version value="0.1.0"/>
+  <name value="Dhis2DataElementsCS"/>
+  <title value="DHIS2 Data Elements"/>
+  <status value="draft"/>
+  <date value="2026-06-03T19:02:34+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="Code system for 34 unique DHIS2 data elements from all selected programs"/>
+  <content value="complete"/>
+  <count value="34"/>
+  <concept>
+    <code value="sx65Ijl09gx"/>
+    <display value="Vaccinated against Measles/Rubella"/>
+    <definition value="Vaccinated against Measles/Rubella"/>
+  </concept>
+  <concept>
+    <code value="R6o8SL217JB"/>
+    <display value="Fever"/>
+    <definition value="Fever"/>
+  </concept>
+  <concept>
+    <code value="kMzOKNO3n0q"/>
+    <display value="Date of fever onset"/>
+    <definition value="Date of fever onset"/>
+  </concept>
+  <concept>
+    <code value="rF81w0SBlrF"/>
+    <display value="Rash"/>
+    <definition value="Rash"/>
+  </concept>
+  <concept>
+    <code value="dUKQSnRbqSJ"/>
+    <display value="Duration of the rash"/>
+    <definition value="Duration of the rash"/>
+  </concept>
+  <concept>
+    <code value="pLnmZUadUXA"/>
+    <display value="Date of rash onset"/>
+    <definition value="Date of rash onset"/>
+  </concept>
+  <concept>
+    <code value="fkKMZsHl8np"/>
+    <display value="Type of rash"/>
+    <definition value="Type of rash"/>
+  </concept>
+  <concept>
+    <code value="XM4BWbRIruu"/>
+    <display value="Cough"/>
+    <definition value="Cough"/>
+  </concept>
+  <concept>
+    <code value="V9UlOFxpWF6"/>
+    <display value="Conjunctivities"/>
+    <definition value="Conjunctivities"/>
+  </concept>
+  <concept>
+    <code value="cbVD6ChL4XM"/>
+    <display value="Coryza"/>
+    <definition value="Coryza"/>
+  </concept>
+  <concept>
+    <code value="H5U2xFeUvQM"/>
+    <display value="Koplik Spots"/>
+    <definition value="Koplik Spots"/>
+  </concept>
+  <concept>
+    <code value="RJG70pkQAwB"/>
+    <display value="Lymphadenopathy"/>
+    <definition value="Lymphadenopathy"/>
+  </concept>
+  <concept>
+    <code value="jQH7iLQFCD8"/>
+    <display value="Arthralgia"/>
+    <definition value="Arthralgia"/>
+  </concept>
+  <concept>
+    <code value="sQiBsUwzELG"/>
+    <display value="Sample lab ID"/>
+    <definition value="Sample lab ID"/>
+  </concept>
+  <concept>
+    <code value="whgBiFURMOW"/>
+    <display value="Date sample taken"/>
+    <definition value="Date sample taken"/>
+  </concept>
+  <concept>
+    <code value="rog9VZpf1Fc"/>
+    <display value="Date sample delivered to lab"/>
+    <definition value="Date sample delivered to lab"/>
+  </concept>
+  <concept>
+    <code value="lmEOrK9lpKu"/>
+    <display value="Date sample tested"/>
+    <definition value="Date sample tested"/>
+  </concept>
+  <concept>
+    <code value="T0OALfuHqRF"/>
+    <display value="Date of the result"/>
+    <definition value="Date of the result"/>
+  </concept>
+  <concept>
+    <code value="z6fr0FpQ3qq"/>
+    <display value="Laboratory name"/>
+    <definition value="Laboratory name"/>
+  </concept>
+  <concept>
+    <code value="THVoO08ASf9"/>
+    <display value="Sample type"/>
+    <definition value="Sample type"/>
+  </concept>
+  <concept>
+    <code value="c4wNYHVO0Cw"/>
+    <display value="Test type"/>
+    <definition value="Test type"/>
+  </concept>
+  <concept>
+    <code value="dp8AIO0KKPZ"/>
+    <display value="Measles IgM ELISA"/>
+    <definition value="Measles IgM ELISA"/>
+  </concept>
+  <concept>
+    <code value="mAOXKSwLhcT"/>
+    <display value="Measles IgG ELISA"/>
+    <definition value="Measles IgG ELISA"/>
+  </concept>
+  <concept>
+    <code value="Ws1NT6pOqL4"/>
+    <display value="Measles PCR"/>
+    <definition value="Measles PCR"/>
+  </concept>
+  <concept>
+    <code value="AOybyqL0IJV"/>
+    <display value="Virus isolation"/>
+    <definition value="Virus isolation"/>
+  </concept>
+  <concept>
+    <code value="kfCeJvQmIW2"/>
+    <display value="Measles genotyping"/>
+    <definition value="Measles genotyping"/>
+  </concept>
+  <concept>
+    <code value="DkZXBW0S5XG"/>
+    <display value="Rapid diagnostic test"/>
+    <definition value="Rapid diagnostic test"/>
+  </concept>
+  <concept>
+    <code value="hVdxk2eemiY"/>
+    <display value="Sample status"/>
+    <definition value="Sample status"/>
+  </concept>
+  <concept>
+    <code value="dYJgsSSJgHs"/>
+    <display value="Final classification"/>
+    <definition value="Final classification"/>
+  </concept>
+  <concept>
+    <code value="liXWgMY482d"/>
+    <display value="Revision status"/>
+    <definition value="Revision status"/>
+  </concept>
+  <concept>
+    <code value="dJWO6DspupD"/>
+    <display value="Clinical report status"/>
+    <definition value="Clinical report status"/>
+  </concept>
+  <concept>
+    <code value="IJy0574yyrP"/>
+    <display value="Individual Public health measures"/>
+    <definition value="Individual Public health measures"/>
+  </concept>
+  <concept>
+    <code value="KqxOxmjPr8P"/>
+    <display value="National Public health measures"/>
+    <definition value="National Public health measures"/>
+  </concept>
+  <concept>
+    <code value="Als7IJZa0rX"/>
+    <display value="Transmission"/>
+    <definition value="Transmission"/>
+  </concept>
+</CodeSystem>

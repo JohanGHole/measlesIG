@@ -1,0 +1,66 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SampleTypeCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SampleTypeCS</b></p><a name=\"SampleTypeCS\"> </a><a name=\"hcSampleTypeCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/SampleTypeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">SERUM<a name=\"SampleTypeCS-SERUM\"> </a></td><td>Serum</td></tr><tr><td style=\"white-space:nowrap\">WHOLE_BLOOD<a name=\"SampleTypeCS-WHOLE_BLOOD\"> </a></td><td>Whole blood</td></tr><tr><td style=\"white-space:nowrap\">DRIED_BLOOD_SPOT<a name=\"SampleTypeCS-DRIED_BLOOD_SPOT\"> </a></td><td>Dried blood spot</td></tr><tr><td style=\"white-space:nowrap\">THROAT_SWAB<a name=\"SampleTypeCS-THROAT_SWAB\"> </a></td><td>Throat swab</td></tr><tr><td style=\"white-space:nowrap\">NASOPHARYNGEAL_SWAB<a name=\"SampleTypeCS-NASOPHARYNGEAL_SWAB\"> </a></td><td>Nasopharyngeal swab</td></tr><tr><td style=\"white-space:nowrap\">ORAL_FLUID<a name=\"SampleTypeCS-ORAL_FLUID\"> </a></td><td>Oral fluid</td></tr><tr><td style=\"white-space:nowrap\">URINE<a name=\"SampleTypeCS-URINE\"> </a></td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"SampleTypeCS-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"SampleTypeCS-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/SampleTypeCS",
+  "version" : "0.1.0",
+  "name" : "SampleTypeCS",
+  "title" : "Sample type",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "SERUM",
+    "display" : "Serum"
+  },
+  {
+    "code" : "WHOLE_BLOOD",
+    "display" : "Whole blood"
+  },
+  {
+    "code" : "DRIED_BLOOD_SPOT",
+    "display" : "Dried blood spot"
+  },
+  {
+    "code" : "THROAT_SWAB",
+    "display" : "Throat swab"
+  },
+  {
+    "code" : "NASOPHARYNGEAL_SWAB",
+    "display" : "Nasopharyngeal swab"
+  },
+  {
+    "code" : "ORAL_FLUID",
+    "display" : "Oral fluid"
+  },
+  {
+    "code" : "URINE",
+    "display" : "Urine"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

@@ -1,0 +1,286 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/ValueSet/FinalClassificationVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FinalClassificationVS",
+    "title" : "Final classification value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/FinalClassificationCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/FinalClassificationVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "FinalClassificationVS",
+    "title" : "Final classification value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/FinalClassificationCS"],
+    "uses" : {
+    },
+    "StructureDefinition-FinalClassification.html" : "Final classification"
+  },
+  {
+    "url" : "http://example.org/ValueSet/GenderVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "GenderVS",
+    "title" : "Gender value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/GenderCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Measles.html" : "Measles"
+  },
+  {
+    "url" : "http://example.org/ValueSet/IndividualPublicHealthMeasuresVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "IndividualPublicHealthMeasuresVS",
+    "title" : "Individual Public health measures value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/IndividualPublicHealthMeasuresVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "IndividualPublicHealthMeasuresVS",
+    "title" : "Individual Public health measures value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/IndividualPublicHealthMeasuresVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "IndividualPublicHealthMeasuresVS",
+    "title" : "Individual Public health measures value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS"],
+    "uses" : {
+    },
+    "StructureDefinition-RegionalHealthAuthority.html" : "Regional health authority",
+    "StructureDefinition-Epidemiologist.html" : "Epidemiologist"
+  },
+  {
+    "url" : "http://example.org/ValueSet/LabNameVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "LabNameVS",
+    "title" : "Lab name value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/LabNameCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/LabNameVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "LabNameVS",
+    "title" : "Lab name value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/LabNameCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Laboratory.html" : "Laboratory"
+  },
+  {
+    "url" : "http://example.org/ValueSet/ReportStatusVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ReportStatusVS",
+    "title" : "Report status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/ReportStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/ReportStatusVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ReportStatusVS",
+    "title" : "Report status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/ReportStatusCS"],
+    "uses" : {
+    },
+    "StructureDefinition-RegionalHealthAuthority.html" : "Regional health authority"
+  },
+  {
+    "url" : "http://example.org/ValueSet/ResultVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ResultVS",
+    "title" : "Result value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/ResultCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/ResultVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ResultVS",
+    "title" : "Result value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/ResultCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Laboratory.html" : "Laboratory"
+  },
+  {
+    "url" : "http://example.org/ValueSet/RevisionStatusVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "RevisionStatusVS",
+    "title" : "Revision status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/RevisionStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/RevisionStatusVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "RevisionStatusVS",
+    "title" : "Revision status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/RevisionStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/RevisionStatusVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "RevisionStatusVS",
+    "title" : "Revision status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/RevisionStatusCS"],
+    "uses" : {
+    },
+    "StructureDefinition-RegionalHealthAuthority.html" : "Regional health authority",
+    "StructureDefinition-Epidemiologist.html" : "Epidemiologist"
+  },
+  {
+    "url" : "http://example.org/ValueSet/SampleStatusVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SampleStatusVS",
+    "title" : "Sample status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/SampleStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/SampleStatusVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SampleStatusVS",
+    "title" : "Sample status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/SampleStatusCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Laboratory.html" : "Laboratory"
+  },
+  {
+    "url" : "http://example.org/ValueSet/SampleTypeVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SampleTypeVS",
+    "title" : "Sample type value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/SampleTypeCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/SampleTypeVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SampleTypeVS",
+    "title" : "Sample type value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/SampleTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Laboratory.html" : "Laboratory"
+  },
+  {
+    "url" : "http://example.org/ValueSet/TestTypeVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TestTypeVS",
+    "title" : "Test type value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TestTypeCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/TestTypeVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TestTypeVS",
+    "title" : "Test type value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TestTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Laboratory.html" : "Laboratory"
+  },
+  {
+    "url" : "http://example.org/ValueSet/TransmissionVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TransmissionVS",
+    "title" : "Transmission value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TransmissionCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/TransmissionVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TransmissionVS",
+    "title" : "Transmission value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TransmissionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Epidemiologist.html" : "Epidemiologist"
+  },
+  {
+    "url" : "http://example.org/ValueSet/TypeOfRashVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TypeOfRashVS",
+    "title" : "Type of rash value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TypeOfRashCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/TypeOfRashVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TypeOfRashVS",
+    "title" : "Type of rash value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TypeOfRashCS"],
+    "uses" : {
+    },
+    "StructureDefinition-ClinicalReport.html" : "Clinical report"
+  },
+  {
+    "url" : "http://example.org/ValueSet/YesNoUnknownVS",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "YesNoUnknownVS",
+    "title" : "Yes/No/Unknown value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/YesNoUnknownCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/YesNoUnknownVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "YesNoUnknownVS",
+    "title" : "Yes/No/Unknown value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/YesNoUnknownCS"],
+    "uses" : {
+    },
+    "StructureDefinition-ClinicalReport.html" : "Clinical report"
+  }]
+}

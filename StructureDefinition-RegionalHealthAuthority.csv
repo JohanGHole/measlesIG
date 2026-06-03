@@ -1,0 +1,12 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"RegionalHealthAuthority","RegionalHealthAuthority","","","",0,*,"","","","null {[]} {[]}
+","Regional health authority","Regional health authority","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"RegionalHealthAuthority.revisionStatus","RegionalHealthAuthority.revisionStatus","","","",1,1,"","","","code {[]} {[]}
+","Revision status","Revision status","","","","","","","","","",,"required","","http://example.org/ValueSet/RevisionStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#liXWgMY482d
+",,,,"RegionalHealthAuthority.revisionStatus",1,1,"",""
+"RegionalHealthAuthority.clinicalReportStatus","RegionalHealthAuthority.clinicalReportStatus","","","",0,1,"","","","code {[]} {[]}
+","Clinical report status","Clinical report status","","","","","","","","","",,"required","","http://example.org/ValueSet/ReportStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#dJWO6DspupD
+",,,,"RegionalHealthAuthority.clinicalReportStatus",0,1,"",""
+"RegionalHealthAuthority.individualPublicHealthMeasures","RegionalHealthAuthority.individualPublicHealthMeasures","","","",0,1,"","","","code {[]} {[]}
+","Individual Public health measures","Individual Public health measures","","","","","","","","","",,"required","","http://example.org/ValueSet/IndividualPublicHealthMeasuresVS","http://example.org/CodeSystem/dhis2-data-elements-cs#IJy0574yyrP
+",,,,"RegionalHealthAuthority.individualPublicHealthMeasures",0,1,"",""

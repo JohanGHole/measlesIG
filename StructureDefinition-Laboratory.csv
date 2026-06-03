@@ -1,0 +1,48 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Laboratory","Laboratory","","","",0,*,"","","","null {[]} {[]}
+","Laboratory","Laboratory","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Laboratory.sampleLabId","Laboratory.sampleLabId","","","",0,1,"","","","string {[]} {[]}
+","Sample lab ID","Sample lab ID","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#sQiBsUwzELG
+",,,,"Laboratory.sampleLabId",0,1,"",""
+"Laboratory.dateSampleTaken","Laboratory.dateSampleTaken","","","",0,1,"","","","date {[]} {[]}
+","Date sample taken","Date sample taken","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#whgBiFURMOW
+",,,,"Laboratory.dateSampleTaken",0,1,"",""
+"Laboratory.dateSampleDeliveredToLab","Laboratory.dateSampleDeliveredToLab","","","",0,1,"","","","date {[]} {[]}
+","Date sample delivered to lab","Date sample delivered to lab","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#rog9VZpf1Fc
+",,,,"Laboratory.dateSampleDeliveredToLab",0,1,"",""
+"Laboratory.dateSampleTested","Laboratory.dateSampleTested","","","",0,1,"","","","date {[]} {[]}
+","Date sample tested","Date sample tested","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#lmEOrK9lpKu
+",,,,"Laboratory.dateSampleTested",0,1,"",""
+"Laboratory.dateOfTheResult","Laboratory.dateOfTheResult","","","",0,1,"","","","date {[]} {[]}
+","Date of the result","Date of the result","","","","","","","","","",,,,,"http://example.org/CodeSystem/dhis2-data-elements-cs#T0OALfuHqRF
+",,,,"Laboratory.dateOfTheResult",0,1,"",""
+"Laboratory.laboratoryName","Laboratory.laboratoryName","","","",0,1,"","","","code {[]} {[]}
+","Laboratory name","Laboratory name","","","","","","","","","",,"required","","http://example.org/ValueSet/LabNameVS","http://example.org/CodeSystem/dhis2-data-elements-cs#z6fr0FpQ3qq
+",,,,"Laboratory.laboratoryName",0,1,"",""
+"Laboratory.sampleType","Laboratory.sampleType","","","",0,1,"","","","code {[]} {[]}
+","Sample type","Sample type","","","","","","","","","",,"required","","http://example.org/ValueSet/SampleTypeVS","http://example.org/CodeSystem/dhis2-data-elements-cs#THVoO08ASf9
+",,,,"Laboratory.sampleType",0,1,"",""
+"Laboratory.testType","Laboratory.testType","","","",0,1,"","","","code {[]} {[]}
+","Test type","Test type","","","","","","","","","",,"required","","http://example.org/ValueSet/TestTypeVS","http://example.org/CodeSystem/dhis2-data-elements-cs#c4wNYHVO0Cw
+",,,,"Laboratory.testType",0,1,"",""
+"Laboratory.measlesIgmElisa","Laboratory.measlesIgmElisa","","","",0,1,"","","","code {[]} {[]}
+","Measles IgM ELISA","Measles IgM ELISA","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#dp8AIO0KKPZ
+",,,,"Laboratory.measlesIgmElisa",0,1,"",""
+"Laboratory.measlesIggElisa","Laboratory.measlesIggElisa","","","",0,1,"","","","code {[]} {[]}
+","Measles IgG ELISA","Measles IgG ELISA","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#mAOXKSwLhcT
+",,,,"Laboratory.measlesIggElisa",0,1,"",""
+"Laboratory.measlesPcr","Laboratory.measlesPcr","","","",0,1,"","","","code {[]} {[]}
+","Measles PCR","Measles PCR","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#Ws1NT6pOqL4
+",,,,"Laboratory.measlesPcr",0,1,"",""
+"Laboratory.virusIsolation","Laboratory.virusIsolation","","","",0,1,"","","","code {[]} {[]}
+","Virus isolation","Virus isolation","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#AOybyqL0IJV
+",,,,"Laboratory.virusIsolation",0,1,"",""
+"Laboratory.measlesGenotyping","Laboratory.measlesGenotyping","","","",0,1,"","","","code {[]} {[]}
+","Measles genotyping","Measles genotyping","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#kfCeJvQmIW2
+",,,,"Laboratory.measlesGenotyping",0,1,"",""
+"Laboratory.rapidDiagnosticTest","Laboratory.rapidDiagnosticTest","","","",0,1,"","","","code {[]} {[]}
+","Rapid diagnostic test","Rapid diagnostic test","","","","","","","","","",,"required","","http://example.org/ValueSet/ResultVS","http://example.org/CodeSystem/dhis2-data-elements-cs#DkZXBW0S5XG
+",,,,"Laboratory.rapidDiagnosticTest",0,1,"",""
+"Laboratory.sampleStatus","Laboratory.sampleStatus","","","",0,1,"","","","code {[]} {[]}
+","Sample status","Sample status","","","","","","","","","",,"required","","http://example.org/ValueSet/SampleStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#hVdxk2eemiY
+",,,,"Laboratory.sampleStatus",0,1,"",""

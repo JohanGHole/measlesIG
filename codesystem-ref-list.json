@@ -1,0 +1,159 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/CodeSystem/FinalClassificationCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FinalClassificationCS",
+    "title" : "Final classification",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-FinalClassificationQuestionnaire_FinalClassificationVS.html" : "Final classification value set",
+    "ValueSet-FinalClassificationVS.html" : "Final classification value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/GenderCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GenderCS",
+    "title" : "Gender",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-GenderVS.html" : "Gender value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "IndividualPublicHealthMeasuresCS",
+    "title" : "Individual Public health measures",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-IndividualPublicHealthMeasuresVS.html" : "Individual Public health measures value set",
+    "ValueSet-EpidemiologistQuestionnaire_IndividualPublicHealthMeasuresVS.html" : "Individual Public health measures value set",
+    "ValueSet-RegionalHealthAuthorityQuestionnaire_IndividualPublicHealthMeasuresVS.html" : "Individual Public health measures value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/LabNameCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "LabNameCS",
+    "title" : "Lab name",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-LaboratoryQuestionnaire_LabNameVS.html" : "Lab name value set",
+    "ValueSet-LabNameVS.html" : "Lab name value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/ReportStatusCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ReportStatusCS",
+    "title" : "Report status",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-ReportStatusVS.html" : "Report status value set",
+    "ValueSet-RegionalHealthAuthorityQuestionnaire_ReportStatusVS.html" : "Report status value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/ResultCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ResultCS",
+    "title" : "Result",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-ResultVS.html" : "Result value set",
+    "ValueSet-LaboratoryQuestionnaire_ResultVS.html" : "Result value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/RevisionStatusCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "RevisionStatusCS",
+    "title" : "Revision status",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-RegionalHealthAuthorityQuestionnaire_RevisionStatusVS.html" : "Revision status value set",
+    "ValueSet-RevisionStatusVS.html" : "Revision status value set",
+    "ValueSet-EpidemiologistQuestionnaire_RevisionStatusVS.html" : "Revision status value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/SampleStatusCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SampleStatusCS",
+    "title" : "Sample status",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-SampleStatusVS.html" : "Sample status value set",
+    "ValueSet-LaboratoryQuestionnaire_SampleStatusVS.html" : "Sample status value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/SampleTypeCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SampleTypeCS",
+    "title" : "Sample type",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-SampleTypeVS.html" : "Sample type value set",
+    "ValueSet-LaboratoryQuestionnaire_SampleTypeVS.html" : "Sample type value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/TestTypeCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TestTypeCS",
+    "title" : "Test type",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-LaboratoryQuestionnaire_TestTypeVS.html" : "Test type value set",
+    "ValueSet-TestTypeVS.html" : "Test type value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/TransmissionCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TransmissionCS",
+    "title" : "Transmission",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-EpidemiologistQuestionnaire_TransmissionVS.html" : "Transmission value set",
+    "ValueSet-TransmissionVS.html" : "Transmission value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/TypeOfRashCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TypeOfRashCS",
+    "title" : "Type of rash",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-TypeOfRashVS.html" : "Type of rash value set",
+    "ValueSet-ClinicalReportQuestionnaire_TypeOfRashVS.html" : "Type of rash value set"
+  },
+  {
+    "url" : "http://example.org/CodeSystem/YesNoUnknownCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "YesNoUnknownCS",
+    "title" : "Yes/No/Unknown",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-ClinicalReportQuestionnaire_YesNoUnknownVS.html" : "Yes/No/Unknown value set",
+    "ValueSet-YesNoUnknownVS.html" : "Yes/No/Unknown value set"
+  }]
+}

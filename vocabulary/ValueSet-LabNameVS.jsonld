@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://example.org/ValueSet-LabNameVS.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-03T19:04:11.755522Z",
+  "@graph": [
+    {
+      "id": "http://example.org/ValueSet-LabNameVS.jsonld#LABORATORY_1",
+      "name": "Laboratory 1",
+      "fhir:code": "LABORATORY_1",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-LabNameCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-LabNameVS.jsonld#LABORATORY_2",
+      "name": "Laboratory 2",
+      "fhir:code": "LABORATORY_2",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-LabNameCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-LabNameVS.jsonld#LABORATORY_3",
+      "name": "Laboratory 3",
+      "fhir:code": "LABORATORY_3",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-LabNameCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-LabNameVS.jsonld#LABORATORY_4",
+      "name": "Laboratory 4",
+      "fhir:code": "LABORATORY_4",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-LabNameCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-LabNameVS.jsonld#LABORATORY_5",
+      "name": "Laboratory 5",
+      "fhir:code": "LABORATORY_5",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-LabNameCS"
+    }
+  ]
+}

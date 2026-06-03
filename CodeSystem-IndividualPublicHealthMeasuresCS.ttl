@@ -1,0 +1,70 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "IndividualPublicHealthMeasuresCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem IndividualPublicHealthMeasuresCS</b></p><a name=\"IndividualPublicHealthMeasuresCS\"> </a><a name=\"hcIndividualPublicHealthMeasuresCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ISOLATION<a name=\"IndividualPublicHealthMeasuresCS-ISOLATION\"> </a></td><td>Isolation</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_TRACING<a name=\"IndividualPublicHealthMeasuresCS-CONTACT_TRACING\"> </a></td><td>Contact tracing</td></tr><tr><td style=\"white-space:nowrap\">QUARANTINE<a name=\"IndividualPublicHealthMeasuresCS-QUARANTINE\"> </a></td><td>Quarantine</td></tr><tr><td style=\"white-space:nowrap\">POST_EXPOSURE_VACCINATION<a name=\"IndividualPublicHealthMeasuresCS-POST_EXPOSURE_VACCINATION\"> </a></td><td>Post-exposure vaccination</td></tr><tr><td style=\"white-space:nowrap\">HEALTH_EDUCATION<a name=\"IndividualPublicHealthMeasuresCS-HEALTH_EDUCATION\"> </a></td><td>Health education provided</td></tr><tr><td style=\"white-space:nowrap\">REFERRAL<a name=\"IndividualPublicHealthMeasuresCS-REFERRAL\"> </a></td><td>Referral for care</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"IndividualPublicHealthMeasuresCS-OTHER\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS"^^xsd:anyURI ;
+     fhir:l <http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "IndividualPublicHealthMeasuresCS"] ; # 
+  fhir:title [ fhir:v "Individual Public health measures"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-03T19:02:34+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ISOLATION" ] ;
+     fhir:display [ fhir:v "Isolation" ]
+  ] [
+     fhir:code [ fhir:v "CONTACT_TRACING" ] ;
+     fhir:display [ fhir:v "Contact tracing" ]
+  ] [
+     fhir:code [ fhir:v "QUARANTINE" ] ;
+     fhir:display [ fhir:v "Quarantine" ]
+  ] [
+     fhir:code [ fhir:v "POST_EXPOSURE_VACCINATION" ] ;
+     fhir:display [ fhir:v "Post-exposure vaccination" ]
+  ] [
+     fhir:code [ fhir:v "HEALTH_EDUCATION" ] ;
+     fhir:display [ fhir:v "Health education provided" ]
+  ] [
+     fhir:code [ fhir:v "REFERRAL" ] ;
+     fhir:display [ fhir:v "Referral for care" ]
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

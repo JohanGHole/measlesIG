@@ -1,0 +1,119 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/ValueSet/FinalClassificationVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "FinalClassificationVS",
+    "title" : "Final classification value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/FinalClassificationCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/GenderVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "GenderVS",
+    "title" : "Gender value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/GenderCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/IndividualPublicHealthMeasuresVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "IndividualPublicHealthMeasuresVS",
+    "title" : "Individual Public health measures value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/LabNameVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "LabNameVS",
+    "title" : "Lab name value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/LabNameCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/ReportStatusVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ReportStatusVS",
+    "title" : "Report status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/ReportStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/ResultVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ResultVS",
+    "title" : "Result value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/ResultCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/RevisionStatusVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "RevisionStatusVS",
+    "title" : "Revision status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/RevisionStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/SampleStatusVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SampleStatusVS",
+    "title" : "Sample status value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/SampleStatusCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/SampleTypeVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "SampleTypeVS",
+    "title" : "Sample type value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/SampleTypeCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/TestTypeVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TestTypeVS",
+    "title" : "Test type value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TestTypeCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/TransmissionVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TransmissionVS",
+    "title" : "Transmission value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TransmissionCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/TypeOfRashVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "TypeOfRashVS",
+    "title" : "Type of rash value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/TypeOfRashCS"]
+  },
+  {
+    "url" : "http://example.org/ValueSet/YesNoUnknownVS",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "YesNoUnknownVS",
+    "title" : "Yes/No/Unknown value set",
+    "description" : "",
+    "systems" : ["http://example.org/CodeSystem/YesNoUnknownCS"]
+  }]
+}

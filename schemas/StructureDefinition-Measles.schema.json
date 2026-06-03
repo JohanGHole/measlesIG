@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/base/StructureDefinition-Measles.schema.json",
+  "title": "Measles",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "resourceType": {
+      "type": "string",
+      "const": "Measles",
+      "description": "Resource type identifier for Measles logical model"
+    },
+    "@context": {
+      "description": "JSON-LD context for this logical model with ValueSet vocabularies",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "description": "URI reference to external JSON-LD context"
+        },
+        {
+          "type": "object",
+          "description": "Inline JSON-LD context",
+          "properties": {
+            "@version": {
+              "type": "number",
+              "const": 1.1
+            },
+            "fhir": {
+              "type": "string",
+              "const": "http://hl7.org/fhir/"
+            }
+          },
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        {
+          "type": "array",
+          "description": "Array of JSON-LD context objects/URIs",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "object"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "@type": {
+      "type": "string",
+      "description": "JSON-LD type identifier for Measles logical model",
+      "examples": [
+        "LogicalModel-Measles"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "description": "ID"
+    },
+    "nationalIdNumber": {
+      "type": "string",
+      "description": "National ID number"
+    },
+    "firstName": {
+      "type": "string",
+      "description": "First name"
+    },
+    "lastName": {
+      "type": "string",
+      "description": "Last Name"
+    },
+    "middleName": {
+      "type": "string",
+      "description": "Middle Name"
+    },
+    "gender": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Code from ValueSet GenderVS (plain string)"
+        },
+        {
+          "type": "object",
+          "description": "Code from ValueSet GenderVS (JSON-LD structure)",
+          "properties": {
+            "@type": {
+              "type": "string",
+              "const": "http://smart.who.int/base/ValueSet-GenderVS.jsonld",
+              "description": "JSON-LD type reference to ValueSet GenderVS"
+            },
+            "@id": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full IRI of the code from ValueSet GenderVS"
+            }
+          },
+          "required": [
+            "@type",
+            "@id"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Gender"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "emailAdress": {
+      "type": "string",
+      "description": "Email adress"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "placeOfResidence": {
+      "type": "string",
+      "description": "Place of residence"
+    },
+    "clinicalReport": {
+      "$ref": "http://smart.who.int/base/StructureDefinition-ClinicalReport.schema.json",
+      "description": "Clinical report"
+    },
+    "laboratory": {
+      "type": "array",
+      "items": {
+        "$ref": "http://smart.who.int/base/StructureDefinition-Laboratory.schema.json"
+      },
+      "description": "Laboratory"
+    },
+    "finalClassification": {
+      "$ref": "http://smart.who.int/base/StructureDefinition-FinalClassification.schema.json",
+      "description": "Final classification"
+    },
+    "regionalHealthAuthority": {
+      "$ref": "http://smart.who.int/base/StructureDefinition-RegionalHealthAuthority.schema.json",
+      "description": "Regional health authority"
+    },
+    "epidemiologist": {
+      "$ref": "http://smart.who.int/base/StructureDefinition-Epidemiologist.schema.json",
+      "description": "Epidemiologist"
+    }
+  },
+  "required": [
+    "resourceType",
+    "id",
+    "nationalIdNumber",
+    "lastName",
+    "dateOfBirth"
+  ],
+  "resourceDefinition": "http://example.org/StructureDefinition/Measles",
+  "fhir:parent": "http://hl7.org/fhir/StructureDefinition/Base",
+  "jsonld:valuesets": [
+    "GenderVS"
+  ],
+  "jsonld:contextTemplate": {
+    "@version": 1.1,
+    "fhir": "http://hl7.org/fhir/",
+    "GenderVS": "http://smart.who.int/base/ValueSet-GenderVS.jsonld"
+  }
+}

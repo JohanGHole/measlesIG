@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://example.org/ValueSet-SampleStatusVS.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-03T19:04:11.752901Z",
+  "@graph": [
+    {
+      "id": "http://example.org/ValueSet-SampleStatusVS.jsonld#LAB_CONFIRMED",
+      "name": "Laboratory confirmed",
+      "fhir:code": "LAB_CONFIRMED",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-SampleStatusCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-SampleStatusVS.jsonld#LAB_NOT_CONFIRMED",
+      "name": "Not confirmed (all tests negative)",
+      "fhir:code": "LAB_NOT_CONFIRMED",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-SampleStatusCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-SampleStatusVS.jsonld#LAB_PENDING",
+      "name": "Pending (results missing / not yet available)",
+      "fhir:code": "LAB_PENDING",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-SampleStatusCS"
+    },
+    {
+      "id": "http://example.org/ValueSet-SampleStatusVS.jsonld#LAB_INCONCLUSIVE",
+      "name": "Inconclusive (indeterminate/invalid without any positive)",
+      "fhir:code": "LAB_INCONCLUSIVE",
+      "fhir:CodeSystem": "http://example.org/CodeSystem-SampleStatusCS"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ReportStatusCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ReportStatusCS</b></p><a name=\"ReportStatusCS\"> </a><a name=\"hcReportStatusCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/ReportStatusCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MISSING<a name=\"ReportStatusCS-MISSING\"> </a></td><td>Missing</td></tr><tr><td style=\"white-space:nowrap\">TO_BE_VALIDATED<a name=\"ReportStatusCS-TO_BE_VALIDATED\"> </a></td><td>To be validated</td></tr><tr><td style=\"white-space:nowrap\">VALIDATED<a name=\"ReportStatusCS-VALIDATED\"> </a></td><td>Validated</td></tr><tr><td style=\"white-space:nowrap\">REJECTED<a name=\"ReportStatusCS-REJECTED\"> </a></td><td>Rejected</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/ReportStatusCS",
+  "version" : "0.1.0",
+  "name" : "ReportStatusCS",
+  "title" : "Report status",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "MISSING",
+    "display" : "Missing"
+  },
+  {
+    "code" : "TO_BE_VALIDATED",
+    "display" : "To be validated"
+  },
+  {
+    "code" : "VALIDATED",
+    "display" : "Validated"
+  },
+  {
+    "code" : "REJECTED",
+    "display" : "Rejected"
+  }]
+}

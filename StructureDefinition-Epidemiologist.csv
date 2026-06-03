@@ -1,0 +1,12 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Epidemiologist","Epidemiologist","","","",0,*,"","","","null {[]} {[]}
+","Epidemiologist","Epidemiologist","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Epidemiologist.revisionStatus","Epidemiologist.revisionStatus","","","",1,1,"","","","code {[]} {[]}
+","Revision status","Revision status","","","","","","","","","",,"required","","http://example.org/ValueSet/RevisionStatusVS","http://example.org/CodeSystem/dhis2-data-elements-cs#liXWgMY482d
+",,,,"Epidemiologist.revisionStatus",1,1,"",""
+"Epidemiologist.nationalPublicHealthMeasures","Epidemiologist.nationalPublicHealthMeasures","","","",0,1,"","","","code {[]} {[]}
+","National Public health measures","National Public health measures","","","","","","","","","",,"required","","http://example.org/ValueSet/IndividualPublicHealthMeasuresVS","http://example.org/CodeSystem/dhis2-data-elements-cs#KqxOxmjPr8P
+",,,,"Epidemiologist.nationalPublicHealthMeasures",0,1,"",""
+"Epidemiologist.transmission","Epidemiologist.transmission","","","",0,1,"","","","code {[]} {[]}
+","Transmission","Transmission","","","","","","","","","",,"required","","http://example.org/ValueSet/TransmissionVS","http://example.org/CodeSystem/dhis2-data-elements-cs#Als7IJZa0rX
+",,,,"Epidemiologist.transmission",0,1,"",""

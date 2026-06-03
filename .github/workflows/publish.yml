@@ -1,0 +1,9 @@
+name: Build IG
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    uses: WorldHealthOrganization/smart-base/.github/workflows/ghbuild.yml@main
+    with:
+      do_dak: true

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ClinicalReport"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: StructureDefinition ClinicalReport</b></p><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport" title="Clinical report">ClinicalReport</a><a name="ClinicalReport"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/types.html#Base">Base</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Clinical report</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.vaccinatedAgainstMeaslesRubella" title="Vaccinated against Measles/Rubella">vaccinatedAgainstMeaslesRubella</a><a name="ClinicalReport.vaccinatedAgainstMeaslesRubella"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Vaccinated against Measles/Rubella</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.fever" title="Fever">fever</a><a name="ClinicalReport.fever"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Fever<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.dateOfFeverOnset" title="Date of fever onset">dateOfFeverOnset</a><a name="ClinicalReport.dateOfFeverOnset"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of fever onset</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.rash" title="Rash">rash</a><a name="ClinicalReport.rash"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Rash<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.durationOfTheRash" title="Duration of the rash">durationOfTheRash</a><a name="ClinicalReport.durationOfTheRash"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">unsignedInt</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Duration of the rash</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.dateOfRashOnset" title="Date of rash onset">dateOfRashOnset</a><a name="ClinicalReport.dateOfRashOnset"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of rash onset</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.typeOfRash" title="Type of rash">typeOfRash</a><a name="ClinicalReport.typeOfRash"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type of rash<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-TypeOfRashVS.html" title="http://example.org/ValueSet/TypeOfRashVS" class="binding">Type of rash value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.cough" title="Cough">cough</a><a name="ClinicalReport.cough"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Cough<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.conjunctivities" title="Conjunctivities">conjunctivities</a><a name="ClinicalReport.conjunctivities"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Conjunctivities<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.coryza" title="Coryza">coryza</a><a name="ClinicalReport.coryza"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Coryza<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.koplikSpots" title="Koplik Spots">koplikSpots</a><a name="ClinicalReport.koplikSpots"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Koplik Spots<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.lymphadenopathy" title="Lymphadenopathy">lymphadenopathy</a><a name="ClinicalReport.lymphadenopathy"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Lymphadenopathy<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-ClinicalReport-definitions.html#ClinicalReport.arthralgia" title="Arthralgia">arthralgia</a><a name="ClinicalReport.arthralgia"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Arthralgia<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-YesNoUnknownVS.html" title="http://example.org/ValueSet/YesNoUnknownVS" class="binding">Yes/No/Unknown value set</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span></td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="http://example.org/StructureDefinition/ClinicalReport"/>
+  <version value="0.1.0"/>
+  <name value="ClinicalReport"/>
+  <title value="Clinical report"/>
+  <status value="draft"/>
+  <date value="2026-06-03T19:02:34+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <fhirVersion value="4.0.1"/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://example.org/StructureDefinition/ClinicalReport"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
+    <element id="ClinicalReport">
+      <path value="ClinicalReport"/>
+      <short value="Clinical report"/>
+      <definition value="Clinical report"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="ClinicalReport.vaccinatedAgainstMeaslesRubella">
+      <path value="ClinicalReport.vaccinatedAgainstMeaslesRubella"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="sx65Ijl09gx"/>
+      </code>
+      <short value="Vaccinated against Measles/Rubella"/>
+      <definition value="Vaccinated against Measles/Rubella"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.vaccinatedAgainstMeaslesRubella"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="boolean"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.fever">
+      <path value="ClinicalReport.fever"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="R6o8SL217JB"/>
+      </code>
+      <short value="Fever"/>
+      <definition value="Fever"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.fever"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.dateOfFeverOnset">
+      <path value="ClinicalReport.dateOfFeverOnset"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="kMzOKNO3n0q"/>
+      </code>
+      <short value="Date of fever onset"/>
+      <definition value="Date of fever onset"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.dateOfFeverOnset"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.rash">
+      <path value="ClinicalReport.rash"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="rF81w0SBlrF"/>
+      </code>
+      <short value="Rash"/>
+      <definition value="Rash"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.rash"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.durationOfTheRash">
+      <path value="ClinicalReport.durationOfTheRash"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="dUKQSnRbqSJ"/>
+      </code>
+      <short value="Duration of the rash"/>
+      <definition value="Duration of the rash"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.durationOfTheRash"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="unsignedInt"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.dateOfRashOnset">
+      <path value="ClinicalReport.dateOfRashOnset"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="pLnmZUadUXA"/>
+      </code>
+      <short value="Date of rash onset"/>
+      <definition value="Date of rash onset"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.dateOfRashOnset"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.typeOfRash">
+      <path value="ClinicalReport.typeOfRash"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="fkKMZsHl8np"/>
+      </code>
+      <short value="Type of rash"/>
+      <definition value="Type of rash"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.typeOfRash"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/TypeOfRashVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.cough">
+      <path value="ClinicalReport.cough"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="XM4BWbRIruu"/>
+      </code>
+      <short value="Cough"/>
+      <definition value="Cough"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.cough"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.conjunctivities">
+      <path value="ClinicalReport.conjunctivities"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="V9UlOFxpWF6"/>
+      </code>
+      <short value="Conjunctivities"/>
+      <definition value="Conjunctivities"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.conjunctivities"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.coryza">
+      <path value="ClinicalReport.coryza"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="cbVD6ChL4XM"/>
+      </code>
+      <short value="Coryza"/>
+      <definition value="Coryza"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.coryza"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.koplikSpots">
+      <path value="ClinicalReport.koplikSpots"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="H5U2xFeUvQM"/>
+      </code>
+      <short value="Koplik Spots"/>
+      <definition value="Koplik Spots"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.koplikSpots"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.lymphadenopathy">
+      <path value="ClinicalReport.lymphadenopathy"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="RJG70pkQAwB"/>
+      </code>
+      <short value="Lymphadenopathy"/>
+      <definition value="Lymphadenopathy"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.lymphadenopathy"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.arthralgia">
+      <path value="ClinicalReport.arthralgia"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="jQH7iLQFCD8"/>
+      </code>
+      <short value="Arthralgia"/>
+      <definition value="Arthralgia"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="ClinicalReport.arthralgia"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="ClinicalReport">
+      <path value="ClinicalReport"/>
+      <short value="Clinical report"/>
+      <definition value="Clinical report"/>
+    </element>
+    <element id="ClinicalReport.vaccinatedAgainstMeaslesRubella">
+      <path value="ClinicalReport.vaccinatedAgainstMeaslesRubella"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="sx65Ijl09gx"/>
+      </code>
+      <short value="Vaccinated against Measles/Rubella"/>
+      <definition value="Vaccinated against Measles/Rubella"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="boolean"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.fever">
+      <path value="ClinicalReport.fever"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="R6o8SL217JB"/>
+      </code>
+      <short value="Fever"/>
+      <definition value="Fever"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.dateOfFeverOnset">
+      <path value="ClinicalReport.dateOfFeverOnset"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="kMzOKNO3n0q"/>
+      </code>
+      <short value="Date of fever onset"/>
+      <definition value="Date of fever onset"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.rash">
+      <path value="ClinicalReport.rash"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="rF81w0SBlrF"/>
+      </code>
+      <short value="Rash"/>
+      <definition value="Rash"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.durationOfTheRash">
+      <path value="ClinicalReport.durationOfTheRash"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="dUKQSnRbqSJ"/>
+      </code>
+      <short value="Duration of the rash"/>
+      <definition value="Duration of the rash"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="unsignedInt"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.dateOfRashOnset">
+      <path value="ClinicalReport.dateOfRashOnset"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="pLnmZUadUXA"/>
+      </code>
+      <short value="Date of rash onset"/>
+      <definition value="Date of rash onset"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="ClinicalReport.typeOfRash">
+      <path value="ClinicalReport.typeOfRash"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="fkKMZsHl8np"/>
+      </code>
+      <short value="Type of rash"/>
+      <definition value="Type of rash"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/TypeOfRashVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.cough">
+      <path value="ClinicalReport.cough"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="XM4BWbRIruu"/>
+      </code>
+      <short value="Cough"/>
+      <definition value="Cough"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.conjunctivities">
+      <path value="ClinicalReport.conjunctivities"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="V9UlOFxpWF6"/>
+      </code>
+      <short value="Conjunctivities"/>
+      <definition value="Conjunctivities"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.coryza">
+      <path value="ClinicalReport.coryza"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="cbVD6ChL4XM"/>
+      </code>
+      <short value="Coryza"/>
+      <definition value="Coryza"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.koplikSpots">
+      <path value="ClinicalReport.koplikSpots"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="H5U2xFeUvQM"/>
+      </code>
+      <short value="Koplik Spots"/>
+      <definition value="Koplik Spots"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.lymphadenopathy">
+      <path value="ClinicalReport.lymphadenopathy"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="RJG70pkQAwB"/>
+      </code>
+      <short value="Lymphadenopathy"/>
+      <definition value="Lymphadenopathy"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+    <element id="ClinicalReport.arthralgia">
+      <path value="ClinicalReport.arthralgia"/>
+      <code>
+        <system value="http://example.org/CodeSystem/dhis2-data-elements-cs"/>
+        <code value="jQH7iLQFCD8"/>
+      </code>
+      <short value="Arthralgia"/>
+      <definition value="Arthralgia"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/ValueSet/YesNoUnknownVS"/>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

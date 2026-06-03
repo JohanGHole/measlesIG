@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-ReportStatusVS.schema.json",
+  "title": "Report status value set Schema",
+  "description": "JSON Schema for Report status value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/ReportStatusCS#MISSING",
+    "http://example.org/CodeSystem/ReportStatusCS#TO_BE_VALIDATED",
+    "http://example.org/CodeSystem/ReportStatusCS#VALIDATED",
+    "http://example.org/CodeSystem/ReportStatusCS#REJECTED"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Report status value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-ReportStatusVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-ReportStatusVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/ReportStatusVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.647921"
+}

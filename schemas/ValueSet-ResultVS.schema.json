@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-ResultVS.schema.json",
+  "title": "Result value set Schema",
+  "description": "JSON Schema for Result value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/ResultCS#POSITIVE",
+    "http://example.org/CodeSystem/ResultCS#NEGATIVE",
+    "http://example.org/CodeSystem/ResultCS#INDETERMINATE",
+    "http://example.org/CodeSystem/ResultCS#PENDING",
+    "http://example.org/CodeSystem/ResultCS#REJECTED",
+    "http://example.org/CodeSystem/ResultCS#INVALID",
+    "http://example.org/CodeSystem/ResultCS#NOT_DONE",
+    "http://example.org/CodeSystem/ResultCS#UNKNOWN"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Result value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-ResultVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-ResultVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/ResultVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.647393"
+}

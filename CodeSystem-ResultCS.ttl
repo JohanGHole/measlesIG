@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/ResultCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ResultCS"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ResultCS</b></p><a name=\"ResultCS\"> </a><a name=\"hcResultCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/ResultCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">POSITIVE<a name=\"ResultCS-POSITIVE\"> </a></td><td>Positive</td></tr><tr><td style=\"white-space:nowrap\">NEGATIVE<a name=\"ResultCS-NEGATIVE\"> </a></td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\">INDETERMINATE<a name=\"ResultCS-INDETERMINATE\"> </a></td><td>Indeterminate</td></tr><tr><td style=\"white-space:nowrap\">PENDING<a name=\"ResultCS-PENDING\"> </a></td><td>Pending</td></tr><tr><td style=\"white-space:nowrap\">REJECTED<a name=\"ResultCS-REJECTED\"> </a></td><td>Rejected</td></tr><tr><td style=\"white-space:nowrap\">INVALID<a name=\"ResultCS-INVALID\"> </a></td><td>Invalid</td></tr><tr><td style=\"white-space:nowrap\">NOT_DONE<a name=\"ResultCS-NOT_DONE\"> </a></td><td>Not done</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"ResultCS-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://example.org/CodeSystem/ResultCS"^^xsd:anyURI ;
+     fhir:l <http://example.org/CodeSystem/ResultCS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ResultCS"] ; # 
+  fhir:title [ fhir:v "Result"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-03T19:02:34+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "POSITIVE" ] ;
+     fhir:display [ fhir:v "Positive" ]
+  ] [
+     fhir:code [ fhir:v "NEGATIVE" ] ;
+     fhir:display [ fhir:v "Negative" ]
+  ] [
+     fhir:code [ fhir:v "INDETERMINATE" ] ;
+     fhir:display [ fhir:v "Indeterminate" ]
+  ] [
+     fhir:code [ fhir:v "PENDING" ] ;
+     fhir:display [ fhir:v "Pending" ]
+  ] [
+     fhir:code [ fhir:v "REJECTED" ] ;
+     fhir:display [ fhir:v "Rejected" ]
+  ] [
+     fhir:code [ fhir:v "INVALID" ] ;
+     fhir:display [ fhir:v "Invalid" ]
+  ] [
+     fhir:code [ fhir:v "NOT_DONE" ] ;
+     fhir:display [ fhir:v "Not done" ]
+  ] [
+     fhir:code [ fhir:v "UNKNOWN" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

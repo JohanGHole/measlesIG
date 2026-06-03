@@ -1,0 +1,275 @@
+[{
+  "id" : "FinalClassificationCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/FinalClassificationCS",
+  "version" : "0.1.0",
+  "name" : "FinalClassificationCS"
+},
+{
+  "id" : "GenderCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/GenderCS",
+  "version" : "0.1.0",
+  "name" : "GenderCS"
+},
+{
+  "id" : "IndividualPublicHealthMeasuresCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS",
+  "version" : "0.1.0",
+  "name" : "IndividualPublicHealthMeasuresCS"
+},
+{
+  "id" : "LabNameCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/LabNameCS",
+  "version" : "0.1.0",
+  "name" : "LabNameCS"
+},
+{
+  "id" : "ReportStatusCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/ReportStatusCS",
+  "version" : "0.1.0",
+  "name" : "ReportStatusCS"
+},
+{
+  "id" : "ResultCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/ResultCS",
+  "version" : "0.1.0",
+  "name" : "ResultCS"
+},
+{
+  "id" : "RevisionStatusCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/RevisionStatusCS",
+  "version" : "0.1.0",
+  "name" : "RevisionStatusCS"
+},
+{
+  "id" : "SampleStatusCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/SampleStatusCS",
+  "version" : "0.1.0",
+  "name" : "SampleStatusCS"
+},
+{
+  "id" : "SampleTypeCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/SampleTypeCS",
+  "version" : "0.1.0",
+  "name" : "SampleTypeCS"
+},
+{
+  "id" : "TestTypeCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/TestTypeCS",
+  "version" : "0.1.0",
+  "name" : "TestTypeCS"
+},
+{
+  "id" : "TransmissionCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/TransmissionCS",
+  "version" : "0.1.0",
+  "name" : "TransmissionCS"
+},
+{
+  "id" : "TypeOfRashCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/TypeOfRashCS",
+  "version" : "0.1.0",
+  "name" : "TypeOfRashCS"
+},
+{
+  "id" : "YesNoUnknownCS",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/YesNoUnknownCS",
+  "version" : "0.1.0",
+  "name" : "YesNoUnknownCS"
+},
+{
+  "id" : "dhis2-data-elements-cs",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/dhis2-data-elements-cs",
+  "version" : "0.1.0",
+  "name" : "Dhis2DataElementsCS"
+},
+{
+  "id" : "dhis2-tracked-entity-attributes-cs",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/CodeSystem/dhis2-tracked-entity-attributes-cs",
+  "version" : "0.1.0",
+  "name" : "Dhis2TrackedEntityAttributesCS"
+},
+{
+  "id" : "dhis2.measles.example",
+  "type" : "ImplementationGuide",
+  "url" : "http://example.org/ImplementationGuide/dhis2.measles.example",
+  "version" : "0.1.0",
+  "name" : "DHIS2MeaslesExampleIG"
+},
+{
+  "id" : "ClinicalReportQuestionnaire",
+  "type" : "Questionnaire",
+  "url" : "http://example.org/Questionnaire/ClinicalReportQuestionnaire",
+  "version" : "0.1.0"
+},
+{
+  "id" : "EpidemiologistQuestionnaire",
+  "type" : "Questionnaire",
+  "url" : "http://example.org/Questionnaire/EpidemiologistQuestionnaire",
+  "version" : "0.1.0"
+},
+{
+  "id" : "FinalClassificationQuestionnaire",
+  "type" : "Questionnaire",
+  "url" : "http://example.org/Questionnaire/FinalClassificationQuestionnaire",
+  "version" : "0.1.0"
+},
+{
+  "id" : "LaboratoryQuestionnaire",
+  "type" : "Questionnaire",
+  "url" : "http://example.org/Questionnaire/LaboratoryQuestionnaire",
+  "version" : "0.1.0"
+},
+{
+  "id" : "RegionalHealthAuthorityQuestionnaire",
+  "type" : "Questionnaire",
+  "url" : "http://example.org/Questionnaire/RegionalHealthAuthorityQuestionnaire",
+  "version" : "0.1.0"
+},
+{
+  "id" : "ClinicalReport",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/StructureDefinition/ClinicalReport",
+  "version" : "0.1.0",
+  "name" : "ClinicalReport"
+},
+{
+  "id" : "Epidemiologist",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/StructureDefinition/Epidemiologist",
+  "version" : "0.1.0",
+  "name" : "Epidemiologist"
+},
+{
+  "id" : "FinalClassification",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/StructureDefinition/FinalClassification",
+  "version" : "0.1.0",
+  "name" : "FinalClassification"
+},
+{
+  "id" : "Laboratory",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/StructureDefinition/Laboratory",
+  "version" : "0.1.0",
+  "name" : "Laboratory"
+},
+{
+  "id" : "Measles",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/StructureDefinition/Measles",
+  "version" : "0.1.0",
+  "name" : "Measles"
+},
+{
+  "id" : "RegionalHealthAuthority",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/StructureDefinition/RegionalHealthAuthority",
+  "version" : "0.1.0",
+  "name" : "RegionalHealthAuthority"
+},
+{
+  "id" : "FinalClassificationVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/FinalClassificationVS",
+  "version" : "0.1.0",
+  "name" : "FinalClassificationVS"
+},
+{
+  "id" : "GenderVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/GenderVS",
+  "version" : "0.1.0",
+  "name" : "GenderVS"
+},
+{
+  "id" : "IndividualPublicHealthMeasuresVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/IndividualPublicHealthMeasuresVS",
+  "version" : "0.1.0",
+  "name" : "IndividualPublicHealthMeasuresVS"
+},
+{
+  "id" : "LabNameVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/LabNameVS",
+  "version" : "0.1.0",
+  "name" : "LabNameVS"
+},
+{
+  "id" : "ReportStatusVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/ReportStatusVS",
+  "version" : "0.1.0",
+  "name" : "ReportStatusVS"
+},
+{
+  "id" : "ResultVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/ResultVS",
+  "version" : "0.1.0",
+  "name" : "ResultVS"
+},
+{
+  "id" : "RevisionStatusVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/RevisionStatusVS",
+  "version" : "0.1.0",
+  "name" : "RevisionStatusVS"
+},
+{
+  "id" : "SampleStatusVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/SampleStatusVS",
+  "version" : "0.1.0",
+  "name" : "SampleStatusVS"
+},
+{
+  "id" : "SampleTypeVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/SampleTypeVS",
+  "version" : "0.1.0",
+  "name" : "SampleTypeVS"
+},
+{
+  "id" : "TestTypeVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/TestTypeVS",
+  "version" : "0.1.0",
+  "name" : "TestTypeVS"
+},
+{
+  "id" : "TransmissionVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/TransmissionVS",
+  "version" : "0.1.0",
+  "name" : "TransmissionVS"
+},
+{
+  "id" : "TypeOfRashVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/TypeOfRashVS",
+  "version" : "0.1.0",
+  "name" : "TypeOfRashVS"
+},
+{
+  "id" : "YesNoUnknownVS",
+  "type" : "ValueSet",
+  "url" : "http://example.org/ValueSet/YesNoUnknownVS",
+  "version" : "0.1.0",
+  "name" : "YesNoUnknownVS"
+}]

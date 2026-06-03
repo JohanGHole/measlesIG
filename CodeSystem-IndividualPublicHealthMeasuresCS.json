@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "IndividualPublicHealthMeasuresCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem IndividualPublicHealthMeasuresCS</b></p><a name=\"IndividualPublicHealthMeasuresCS\"> </a><a name=\"hcIndividualPublicHealthMeasuresCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ISOLATION<a name=\"IndividualPublicHealthMeasuresCS-ISOLATION\"> </a></td><td>Isolation</td></tr><tr><td style=\"white-space:nowrap\">CONTACT_TRACING<a name=\"IndividualPublicHealthMeasuresCS-CONTACT_TRACING\"> </a></td><td>Contact tracing</td></tr><tr><td style=\"white-space:nowrap\">QUARANTINE<a name=\"IndividualPublicHealthMeasuresCS-QUARANTINE\"> </a></td><td>Quarantine</td></tr><tr><td style=\"white-space:nowrap\">POST_EXPOSURE_VACCINATION<a name=\"IndividualPublicHealthMeasuresCS-POST_EXPOSURE_VACCINATION\"> </a></td><td>Post-exposure vaccination</td></tr><tr><td style=\"white-space:nowrap\">HEALTH_EDUCATION<a name=\"IndividualPublicHealthMeasuresCS-HEALTH_EDUCATION\"> </a></td><td>Health education provided</td></tr><tr><td style=\"white-space:nowrap\">REFERRAL<a name=\"IndividualPublicHealthMeasuresCS-REFERRAL\"> </a></td><td>Referral for care</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"IndividualPublicHealthMeasuresCS-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS",
+  "version" : "0.1.0",
+  "name" : "IndividualPublicHealthMeasuresCS",
+  "title" : "Individual Public health measures",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "ISOLATION",
+    "display" : "Isolation"
+  },
+  {
+    "code" : "CONTACT_TRACING",
+    "display" : "Contact tracing"
+  },
+  {
+    "code" : "QUARANTINE",
+    "display" : "Quarantine"
+  },
+  {
+    "code" : "POST_EXPOSURE_VACCINATION",
+    "display" : "Post-exposure vaccination"
+  },
+  {
+    "code" : "HEALTH_EDUCATION",
+    "display" : "Health education provided"
+  },
+  {
+    "code" : "REFERRAL",
+    "display" : "Referral for care"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

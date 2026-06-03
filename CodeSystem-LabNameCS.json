@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "LabNameCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LabNameCS</b></p><a name=\"LabNameCS\"> </a><a name=\"hcLabNameCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/LabNameCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_1<a name=\"LabNameCS-LABORATORY_1\"> </a></td><td>Laboratory 1</td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_2<a name=\"LabNameCS-LABORATORY_2\"> </a></td><td>Laboratory 2</td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_3<a name=\"LabNameCS-LABORATORY_3\"> </a></td><td>Laboratory 3</td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_4<a name=\"LabNameCS-LABORATORY_4\"> </a></td><td>Laboratory 4</td></tr><tr><td style=\"white-space:nowrap\">LABORATORY_5<a name=\"LabNameCS-LABORATORY_5\"> </a></td><td>Laboratory 5</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/LabNameCS",
+  "version" : "0.1.0",
+  "name" : "LabNameCS",
+  "title" : "Lab name",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "LABORATORY_1",
+    "display" : "Laboratory 1"
+  },
+  {
+    "code" : "LABORATORY_2",
+    "display" : "Laboratory 2"
+  },
+  {
+    "code" : "LABORATORY_3",
+    "display" : "Laboratory 3"
+  },
+  {
+    "code" : "LABORATORY_4",
+    "display" : "Laboratory 4"
+  },
+  {
+    "code" : "LABORATORY_5",
+    "display" : "Laboratory 5"
+  }]
+}

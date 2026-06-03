@@ -1,0 +1,62 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TestTypeCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TestTypeCS</b></p><a name=\"TestTypeCS\"> </a><a name=\"hcTestTypeCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/TestTypeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IGM_ELISA<a name=\"TestTypeCS-IGM_ELISA\"> </a></td><td>Measles IgM ELISA</td></tr><tr><td style=\"white-space:nowrap\">IGG_ELISA<a name=\"TestTypeCS-IGG_ELISA\"> </a></td><td>Measles IgG ELISA</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"TestTypeCS-PCR\"> </a></td><td>Measles PCR</td></tr><tr><td style=\"white-space:nowrap\">VIRUS_ISOLATION<a name=\"TestTypeCS-VIRUS_ISOLATION\"> </a></td><td>Virus isolation</td></tr><tr><td style=\"white-space:nowrap\">GENOTYPING<a name=\"TestTypeCS-GENOTYPING\"> </a></td><td>Measles genotyping</td></tr><tr><td style=\"white-space:nowrap\">RAPID_TEST<a name=\"TestTypeCS-RAPID_TEST\"> </a></td><td>Rapid diagnostic test</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"TestTypeCS-OTHER\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"TestTypeCS-UNKNOWN\"> </a></td><td>Unknown</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/TestTypeCS",
+  "version" : "0.1.0",
+  "name" : "TestTypeCS",
+  "title" : "Test type",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "IGM_ELISA",
+    "display" : "Measles IgM ELISA"
+  },
+  {
+    "code" : "IGG_ELISA",
+    "display" : "Measles IgG ELISA"
+  },
+  {
+    "code" : "PCR",
+    "display" : "Measles PCR"
+  },
+  {
+    "code" : "VIRUS_ISOLATION",
+    "display" : "Virus isolation"
+  },
+  {
+    "code" : "GENOTYPING",
+    "display" : "Measles genotyping"
+  },
+  {
+    "code" : "RAPID_TEST",
+    "display" : "Rapid diagnostic test"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  },
+  {
+    "code" : "UNKNOWN",
+    "display" : "Unknown"
+  }]
+}

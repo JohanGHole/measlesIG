@@ -1,0 +1,92 @@
+# dhis2.measles.example#0.1.0: null
+
+## Pages
+
+* [Home](index.md)
+* [](ValueSet-LaboratoryQuestionnaire_ResultVS-testing.md)
+* [](ValueSet-ClinicalReportQuestionnaire_TypeOfRashVS-testing.md)
+* [](ValueSet-LaboratoryQuestionnaire_LabNameVS-testing.md)
+* [](ValueSet-EpidemiologistQuestionnaire_IndividualPublicHealthMeasuresVS-testing.md)
+* [](ValueSet-EpidemiologistQuestionnaire_TransmissionVS-testing.md)
+* [](ValueSet-RegionalHealthAuthorityQuestionnaire_IndividualPublicHealthMeasuresVS-testing.md)
+* [ValueSet](ValueSet-LaboratoryQuestionnaire_SampleStatusVS.md)
+* [](ValueSet-RegionalHealthAuthorityQuestionnaire_RevisionStatusVS-testing.md)
+* [ValueSet](ValueSet-EpidemiologistQuestionnaire_RevisionStatusVS.md)
+* [ValueSet](ValueSet-RegionalHealthAuthorityQuestionnaire_RevisionStatusVS.md)
+* [ValueSet](ValueSet-EpidemiologistQuestionnaire_TransmissionVS.md)
+* [ValueSet](ValueSet-LaboratoryQuestionnaire_TestTypeVS.md)
+* [](ValueSet-LaboratoryQuestionnaire_SampleTypeVS-testing.md)
+* [ValueSet](ValueSet-ClinicalReportQuestionnaire_YesNoUnknownVS.md)
+* [](ValueSet-LaboratoryQuestionnaire_TestTypeVS-testing.md)
+* [](ValueSet-RegionalHealthAuthorityQuestionnaire_ReportStatusVS-testing.md)
+* [](ValueSet-EpidemiologistQuestionnaire_RevisionStatusVS-testing.md)
+* [](ValueSet-LaboratoryQuestionnaire_SampleStatusVS-testing.md)
+* [](ValueSet-ClinicalReportQuestionnaire_YesNoUnknownVS-testing.md)
+* [ValueSet](ValueSet-LaboratoryQuestionnaire_LabNameVS.md)
+* [ValueSet](ValueSet-LaboratoryQuestionnaire_ResultVS.md)
+* [ValueSet](ValueSet-LaboratoryQuestionnaire_SampleTypeVS.md)
+* [Artifacts Summary](artifacts.md)
+* [](ValueSet-FinalClassificationQuestionnaire_FinalClassificationVS-testing.md)
+* [ValueSet](ValueSet-RegionalHealthAuthorityQuestionnaire_ReportStatusVS.md)
+* [License](license.md)
+* [ValueSet](ValueSet-EpidemiologistQuestionnaire_IndividualPublicHealthMeasuresVS.md)
+* [ValueSet](ValueSet-FinalClassificationQuestionnaire_FinalClassificationVS.md)
+* [ValueSet](ValueSet-RegionalHealthAuthorityQuestionnaire_IndividualPublicHealthMeasuresVS.md)
+* [ValueSet](ValueSet-ClinicalReportQuestionnaire_TypeOfRashVS.md)
+
+## Resources
+
+### CodeSystems
+
+* [Final classification](CodeSystem-FinalClassificationCS.md)
+* [Gender](CodeSystem-GenderCS.md)
+* [Individual Public health measures](CodeSystem-IndividualPublicHealthMeasuresCS.md)
+* [Lab name](CodeSystem-LabNameCS.md)
+* [Report status](CodeSystem-ReportStatusCS.md)
+* [Result](CodeSystem-ResultCS.md)
+* [Revision status](CodeSystem-RevisionStatusCS.md)
+* [Sample status](CodeSystem-SampleStatusCS.md)
+* [Sample type](CodeSystem-SampleTypeCS.md)
+* [Test type](CodeSystem-TestTypeCS.md)
+* [Transmission](CodeSystem-TransmissionCS.md)
+* [Type of rash](CodeSystem-TypeOfRashCS.md)
+* [Yes/No/Unknown](CodeSystem-YesNoUnknownCS.md)
+* [DHIS2 Data Elements](CodeSystem-dhis2-data-elements-cs.md)
+* [DHIS2 Tracked Entity Attributes](CodeSystem-dhis2-tracked-entity-attributes-cs.md)
+
+### ValueSets
+
+* [Final classification value set](ValueSet-FinalClassificationVS.md)
+* [Gender value set](ValueSet-GenderVS.md)
+* [Individual Public health measures value set](ValueSet-IndividualPublicHealthMeasuresVS.md)
+* [Lab name value set](ValueSet-LabNameVS.md)
+* [Report status value set](ValueSet-ReportStatusVS.md)
+* [Result value set](ValueSet-ResultVS.md)
+* [Revision status value set](ValueSet-RevisionStatusVS.md)
+* [Sample status value set](ValueSet-SampleStatusVS.md)
+* [Sample type value set](ValueSet-SampleTypeVS.md)
+* [Test type value set](ValueSet-TestTypeVS.md)
+* [Transmission value set](ValueSet-TransmissionVS.md)
+* [Type of rash value set](ValueSet-TypeOfRashVS.md)
+* [Yes/No/Unknown value set](ValueSet-YesNoUnknownVS.md)
+
+### Logicals
+
+* [Clinical report](StructureDefinition-ClinicalReport.md)
+* [Epidemiologist](StructureDefinition-Epidemiologist.md)
+* [Final classification](StructureDefinition-FinalClassification.md)
+* [Laboratory](StructureDefinition-Laboratory.md)
+* [Measles](StructureDefinition-Measles.md)
+* [Regional health authority](StructureDefinition-RegionalHealthAuthority.md)
+
+### ImplementationGuides
+
+* [DHIS2MeaslesExampleIG](index.md)
+
+### Questionnaires
+
+* [Clinical report Questionnaire](Questionnaire-ClinicalReportQuestionnaire.md)
+* [Epidemiologist Questionnaire](Questionnaire-EpidemiologistQuestionnaire.md)
+* [Final classification Questionnaire](Questionnaire-FinalClassificationQuestionnaire.md)
+* [Laboratory Questionnaire](Questionnaire-LaboratoryQuestionnaire.md)
+* [Regional health authority Questionnaire](Questionnaire-RegionalHealthAuthorityQuestionnaire.md)

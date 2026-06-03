@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="RevisionStatusCS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem RevisionStatusCS</b></p><a name="RevisionStatusCS"> </a><a name="hcRevisionStatusCS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/RevisionStatusCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">NEW<a name="RevisionStatusCS-NEW"> </a></td><td>New</td></tr><tr><td style="white-space:nowrap">IN_PROGRESS<a name="RevisionStatusCS-IN_PROGRESS"> </a></td><td>In progress</td></tr><tr><td style="white-space:nowrap">PENDING_REVIEW<a name="RevisionStatusCS-PENDING_REVIEW"> </a></td><td>Pending review</td></tr><tr><td style="white-space:nowrap">REVIEWED<a name="RevisionStatusCS-REVIEWED"> </a></td><td>Reviewed</td></tr><tr><td style="white-space:nowrap">COMPLETED<a name="RevisionStatusCS-COMPLETED"> </a></td><td>Completed</td></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/RevisionStatusCS"/>
+  <version value="0.1.0"/>
+  <name value="RevisionStatusCS"/>
+  <title value="Revision status"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-03T19:02:34+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://dhis2.org"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="NEW"/>
+    <display value="New"/>
+  </concept>
+  <concept>
+    <code value="IN_PROGRESS"/>
+    <display value="In progress"/>
+  </concept>
+  <concept>
+    <code value="PENDING_REVIEW"/>
+    <display value="Pending review"/>
+  </concept>
+  <concept>
+    <code value="REVIEWED"/>
+    <display value="Reviewed"/>
+  </concept>
+  <concept>
+    <code value="COMPLETED"/>
+    <display value="Completed"/>
+  </concept>
+</CodeSystem>

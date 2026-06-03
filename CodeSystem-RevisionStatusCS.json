@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "RevisionStatusCS",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem RevisionStatusCS</b></p><a name=\"RevisionStatusCS\"> </a><a name=\"hcRevisionStatusCS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablecodesystem.html\">CRMI Shareable CodeSystem</a>, <a href=\"http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablecodesystem.html\">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/CodeSystem/RevisionStatusCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">NEW<a name=\"RevisionStatusCS-NEW\"> </a></td><td>New</td></tr><tr><td style=\"white-space:nowrap\">IN_PROGRESS<a name=\"RevisionStatusCS-IN_PROGRESS\"> </a></td><td>In progress</td></tr><tr><td style=\"white-space:nowrap\">PENDING_REVIEW<a name=\"RevisionStatusCS-PENDING_REVIEW\"> </a></td><td>Pending review</td></tr><tr><td style=\"white-space:nowrap\">REVIEWED<a name=\"RevisionStatusCS-REVIEWED\"> </a></td><td>Reviewed</td></tr><tr><td style=\"white-space:nowrap\">COMPLETED<a name=\"RevisionStatusCS-COMPLETED\"> </a></td><td>Completed</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/RevisionStatusCS",
+  "version" : "0.1.0",
+  "name" : "RevisionStatusCS",
+  "title" : "Revision status",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-03T19:02:34+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://dhis2.org"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "NEW",
+    "display" : "New"
+  },
+  {
+    "code" : "IN_PROGRESS",
+    "display" : "In progress"
+  },
+  {
+    "code" : "PENDING_REVIEW",
+    "display" : "Pending review"
+  },
+  {
+    "code" : "REVIEWED",
+    "display" : "Reviewed"
+  },
+  {
+    "code" : "COMPLETED",
+    "display" : "Completed"
+  }]
+}

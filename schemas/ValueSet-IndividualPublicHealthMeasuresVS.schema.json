@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-IndividualPublicHealthMeasuresVS.schema.json",
+  "title": "Individual Public health measures value set Schema",
+  "description": "JSON Schema for Individual Public health measures value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#ISOLATION",
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#CONTACT_TRACING",
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#QUARANTINE",
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#POST_EXPOSURE_VACCINATION",
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#HEALTH_EDUCATION",
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#REFERRAL",
+    "http://example.org/CodeSystem/IndividualPublicHealthMeasuresCS#OTHER"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Individual Public health measures value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-IndividualPublicHealthMeasuresVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-IndividualPublicHealthMeasuresVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/IndividualPublicHealthMeasuresVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.647745"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.org/ValueSet-FinalClassificationVS.schema.json",
+  "title": "Final classification value set Schema",
+  "description": "JSON Schema for Final classification value set ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://example.org/CodeSystem/FinalClassificationCS#LAB_CONFIRMED_MEASLES",
+    "http://example.org/CodeSystem/FinalClassificationCS#EPI_LINKED_MEASLES",
+    "http://example.org/CodeSystem/FinalClassificationCS#CLINICALLY_COMPATIBLE_MEASLES",
+    "http://example.org/CodeSystem/FinalClassificationCS#DISCARDED",
+    "http://example.org/CodeSystem/FinalClassificationCS#PENDING",
+    "http://example.org/CodeSystem/FinalClassificationCS#UNKNOWN"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Final classification value set ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://example.org/ValueSet-FinalClassificationVS.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://example.org/ValueSet-FinalClassificationVS.displays.json",
+  "fhir:valueSet": "http://example.org/ValueSet/FinalClassificationVS",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-06-03T19:04:11.648804"
+}
